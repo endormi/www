@@ -78,7 +78,6 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
-
 	}
 
 	html {
@@ -3778,12 +3777,18 @@ input, select, textarea {
 				#welcome p {
 					font-size: 1em;
 				}
-
 			}
 
 		@media screen and (max-width: 1280px) {
 
 			#welcome {
 				background-attachment: scroll;
+			}
+		}
+
+		@media screen and (max-width: 545px) {
+
+		#sizing {
+			font-size: 10px;
 			}
 		}
