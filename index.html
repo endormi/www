@@ -3,6 +3,7 @@
 		<title>endormi.io</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" href="icon/icons8/git/64/code-fork-64.png" type="image/x-icon" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="css/main.css">
@@ -26,7 +27,7 @@
 
 			<div id="wrapper">
 
-					<section id="welcome" class="wrapper style1 fullscreen fade-up">
+					<section id="welcome" class="wrapper style1 fullscreen fade-down">
 						<div class="inner">
 							<h1>Endormi.io</h1>
 							<p>Hello! I'm a Full Stack Developer specializing in Web Development.<br />
@@ -43,7 +44,7 @@
 									<h2 style="margin-bottom: 0;">My Projects</h2>
 									<p>Projects that I have created and contributed to</p>
 									<div class="table-wrapper">
-										<table class="alt">
+										<table>
 											<thead>
 												<tr>
 													<th id="sizing">Name</th>
@@ -73,8 +74,8 @@
 													<td id="sizing">Python</td>
 												</tr>
 												<tr>
-													<td id="sizing"><a href="https://github.com/endormi/WeatherDesk">WeatherDesk</a></td>
-													<td id="sizing">Change the wallpaper based on the weather (forked)</td>
+													<td id="sizing"><a href="http://endormi.io/django/">django</a></td>
+													<td id="sizing">List of reasons why django is awesome</td>
 													<td id="sizing">Python</td>
 												</tr>
 												<tr>
@@ -86,6 +87,11 @@
 													<td id="sizing"><a href="https://github.com/endormi/vscode-2077-theme">vscode-2077-theme</a></td>
 													<td id="sizing"><a href="https://www.cyberpunk.net/">Cyberpunk 2077</a> inspired theme for vscode</td>
 													<td id="sizing">NULL</td>
+												</tr>
+												<tr class="collapse multi-collapse">
+													<td id="sizing"><a href="https://github.com/endormi/WeatherDesk">WeatherDesk</a></td>
+													<td id="sizing">Change the wallpaper based on the weather (forked)</td>
+													<td id="sizing">Python</td>
 												</tr>
                         <tr class="collapse multi-collapse">
 													<td id="sizing"><a href="https://github.com/endormi/gulpp">gulpp</a></td>
@@ -116,11 +122,6 @@
 													<td id="sizing"><a href="https://github.com/endormi/snake-game">snake-game</a></td>
 													<td id="sizing">Snake game made with JS</td>
 													<td id="sizing">JavaScript</td>
-												</tr>
-												<tr class="collapse multi-collapse">
-													<td id="sizing"><a href="https://github.com/endormi/jupyter-notebook">jupyter-notebook</a></td>
-													<td id="sizing">with py and js examples</td>
-													<td id="sizing">Jupyter Notebook</td>
 												</tr>
 												<tr class="collapse multi-collapse">
 													<td id="sizing"><a href="https://github.com/endormi/Animation-with-CSS">Animation-with-CSS</a></td>
@@ -162,7 +163,7 @@
 						</section>
 					</section>
 					<br><br>
-					<section id="skills" class="wrapper style1 spotlights">
+					<section id="skills" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2 style="margin: 0;">Skills</h2>
 							<p>Skills that I have acquired and currently working on</p>
@@ -174,6 +175,7 @@
 									<li><a href="https://www.djangoproject.com/">Django</a></li>
 									<li><a href="https://nodejs.org/en/">Node.js</a></li>
 									<li>Databases</li>
+									<li>Scalable web applications</li>
 									<li>HTML5 & CSS3</li>
 									<li>JSON</li>
 									<li>UI (User Interface)</li>
@@ -185,14 +187,24 @@
 							<p style="margin: 0; font-size: 15px;">Application programming interface</p>
 								<ul>
 									<li><a href="https://nodejs.org/en/">Node.js</a></li>
-									<li><a href="https://www.python.org/">Python</a></li>
+									<ol><a href="https://github.com/endormi">RESTful-API (Private repo)</a></ol>
+									<li><a href="https://www.python.org/">Python</a>
+										<ol><a href="https://github.com/endormi/django-sendsms">django-sendsms</a></ol>
+										<ol><a href="https://github.com/endormi/django-listAPI">django-listAPI</a></ol>
+									</li>
 									</ul>
 							</div>
 							<div class="col-3 col-12-medium">
 							<h4>Testing</h4>
 							<p style="margin: 0; font-size: 15px;">Project testing & Unit testing</p>
 								<ul>
-									<li><a href="https://travis-ci.org/">Travis-CI</a></li>
+									<li><a href="https://travis-ci.org/endormi">Travis-CI</a></li>
+									<ol><a href="https://travis-ci.org/endormi/python-webapp">python-webapp</a></ol>
+									<ol><a href="https://travis-ci.org/endormi/membership-service">membership-service</a></ol>
+									<ol><a href="https://travis-ci.org/endormi/django-sendsms">django-sendsms</a></ol>
+									<ol><a href="https://travis-ci.org/endormi/django-listAPI">django-listAPI</a></ol>
+									<li><a href="https://coverage.readthedocs.io/en/v4.5.x/">Coverage</a></li>
+									<ol><a href="https://coveralls.io/github/stefanfoulis/django-sendsms?branch=master">Coveralls</a></ol>
 									</ul>
 							</div>
 							<div class="col-3 col-12-medium">
@@ -200,12 +212,12 @@
 								<p style="margin: 0; font-size: 15px;">Cloud application</p>
 									<ul>
 										<li><a href="https://www.heroku.com/">Heroku</a></li>
+										<li><a href="https://www.digitalocean.com/">Digital Ocean</a></li>
 										</ul>
 								</div>
 							</div>
 						</div>
 					</section>
-					<br>
 					<br>
 					<br>
 					<br>
@@ -242,7 +254,7 @@
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; 2019 <a href="https://github.com/endormi">Endormi</a>. All rights reserved.</li><li><a href="http://html5up.net">Design</a></li>
+						<li>&copy; 2019 <a href="https://github.com/endormi">Endormi</a>. All rights reserved.</li><li><a href="http://html5up.net">Design</a></li><li><a href="https://icons8.com/">Icon</a></li>
 					</ul>
 				</div>
 			</footer>
@@ -257,7 +269,7 @@
 			<script src="js/messenger.js"></script>
 			<script src="js/jq.js"></script>
 			<script src="js/mgGlitch.min.js"></script>
-			
+
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
