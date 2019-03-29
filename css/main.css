@@ -2510,7 +2510,7 @@ input, select, textarea {
 	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;
-		padding-left: 0;
+		padding: 0 0 0 0.5em;
 	}
 
 		ol li {
@@ -2695,6 +2695,7 @@ input, select, textarea {
 		ul.icons li {
 			display: inline-block;
 			padding: 0 0.75em 0 0;
+			font-size: 20px;
 		}
 
 			ul.icons li:last-child {
@@ -3043,8 +3044,7 @@ input, select, textarea {
 		table th {
 			color: #ffffff;
 			font-size: 1em;
-			font-weight: bold;
-			padding: 0 0.75em 0.75em 0.75em;
+			padding: 0 0 0.3em 0;
 			text-align: left;
 		}
 
@@ -3762,7 +3762,7 @@ input, select, textarea {
 				h2, h4, p, ul, li, button, input {
 					text-align: center;
 				}
-				
+
 				ul {
 					list-style-type: none;
 				}
