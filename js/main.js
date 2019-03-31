@@ -24,8 +24,6 @@
 			}, 100);
 		});
 
-	// Forms.
-
 		// Hack: Activate non-input submits.
 			$('form').on('click', '.submit', function(event) {
 
