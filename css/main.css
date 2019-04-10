@@ -3388,7 +3388,7 @@ input, select, textarea {
 	}
 
 	#sidebar {
-		padding: 2.5em 2.5em 0.5em 2.5em ;
+		padding: 1em 1em 0.25em 1em;
 		background: #000;
 		cursor: default;
 		height: 100vh;
@@ -3398,7 +3398,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 18em;
+		width: 12em;
 		z-index: 10000;
 	}
 
@@ -3603,23 +3603,22 @@ input, select, textarea {
 			transition: color 0.2s ease;
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
-			display: block;
-			font-size: 0.6em;
-			font-weight: bold;
-			letter-spacing: 0.25em;
-			line-height: 1.75;
+
+			font-size: 0.5em;
+			letter-spacing: 0.15em;
+			line-height: 1;
 			outline: 0;
-			padding: 1.35em 0;
+			padding: 1em 0;
 			position: relative;
 			text-decoration: none;
 			text-transform: uppercase;
 		}
 
 			#sidebar nav a:before, #sidebar nav a:after {
-				border-radius: 0.2em;
+				border-radius: 0.1em;
 				bottom: 0;
 				content: '';
-				height: 0.2em;
+				height: 0.1em;
 				position: absolute;
 				right: 0;
 				width: 100%;
@@ -3672,6 +3671,7 @@ input, select, textarea {
 				left: 0;
 				line-height: 3.5em;
 				overflow: hidden;
+				display: block;
 				padding: 0;
 				text-align: center;
 				top: 0;
@@ -3717,7 +3717,7 @@ input, select, textarea {
 					#sidebar nav a {
 						height: inherit;
 						line-height: inherit;
-						padding: 0;
+						display: block;
 					}
 
 						#sidebar nav a:after {
