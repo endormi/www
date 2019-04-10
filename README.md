@@ -1,6 +1,8 @@
 # endormi.github.io
 
-[![fpage](https://user-images.githubusercontent.com/39559256/54150320-cf6af600-4440-11e9-8d14-6ba4c82c2523.PNG)](https://endormi.io/)
+My portfolio website showcasing most of the projects that I have created and contributed to, and also skills that I have acquired and am currently working towards.
+
+[Website link](https://endormi.io/)
 
 ## License
 
