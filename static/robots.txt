@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+sitemap: https://endormi.io/sitemap.xml
