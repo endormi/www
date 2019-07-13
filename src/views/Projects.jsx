@@ -21,13 +21,12 @@ const Projects = ({ children, offset }) => (
     <Divider speed={0.1} offset={offset} factor={2}>
       <UpDown>
         <SVG icon="box" width={6} fill={colors.white} left="85%" top="75%" />
-        <SVG icon="upDown" width={8} fill={colors['grey-darkest']} left="65%" top="20%" />
         <SVG icon="triangle" width={8} stroke={colors.white} left="25%" top="5%" />
         <SVG icon="circle" hiddenMobile width={6} fill={colors.white} left="17%" top="60%" />
       </UpDown>
       <UpDownWide>
         <SVG icon="arrowUp" hiddenMobile width={16} fill={colors['grey-darkest']} left="25%" top="90%" />
-        <SVG icon="triangle" width={12} stroke={colors['grey-darkest']} left="90%" top="20%" />
+        <SVG icon="triangle" width={12} stroke={colors.white} left="90%" top="20%" />
         <SVG icon="triangle" hiddenMobile width={16} stroke={colors.white} left="13%" top="75%" />
         <SVG icon="circle" width={6} fill={colors.white} left="75%" top="10%" />
         <SVG icon="upDown" hiddenMobile width={8} fill={colors.white} left="45%" top="10%" />
@@ -35,7 +34,7 @@ const Projects = ({ children, offset }) => (
       <SVG icon="circle" width={6} fill={colors.grey} left="8%" top="40%" />
       <SVG icon="circle" width={12} fill={colors.white} left="80%" top="60%" />
       <SVG icon="box" width={6} fill={colors.white} left="10%" top="10%" />
-      <SVG icon="hexa" width={16} stroke={colors.grey} left="75%" top="30%" />
+      <SVG icon="hexa" width={16} stroke={colors.white} left="75%" top="30%" />
       <SVG icon="hexa" width={8} stroke={colors.white} left="80%" top="70%" />
     </Divider>
   </>
