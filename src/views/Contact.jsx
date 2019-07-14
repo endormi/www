@@ -55,7 +55,7 @@ const Contact = ({ children, offset }) => (
       </UpDownWide>
       <SVG icon="circle" width={6} fill={colors.white} left="4%" top="20%" />
       <SVG icon="circle" width={12} fill={colors['grey-darkest']} left="70%" top="80%" />
-      <SVG icon="hexa" width={8} stroke={colors.white} left="80%" top="70%" />
+      <SVG icon="hexa" hiddenMobile width={8} stroke={colors.white} left="80%" top="70%" />
     </Divider>
   </>
 )

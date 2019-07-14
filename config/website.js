@@ -13,6 +13,6 @@ module.exports = {
   author: 'Endormi', // Author for schema.org JSONLD
 
   // Manifest and Progress color
-  themeColor: tailwind.colors.orange,
+  themeColor: tailwind.colors.blue,
   backgroundColor: tailwind.colors.blue,
 }

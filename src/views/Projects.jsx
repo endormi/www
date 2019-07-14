@@ -23,7 +23,7 @@ const Projects = ({ children, offset }) => (
         <SVG icon="arrowUp" hiddenMobile width={16} fill={colors['grey-darkest']} left="25%" top="90%" />
         <SVG icon="triangle" width={12} stroke={colors.white} left="90%" top="20%" />
         <SVG icon="triangle" hiddenMobile width={16} stroke={colors.white} left="13%" top="75%" />
-        <SVG icon="circle" width={6} fill={colors.white} left="75%" top="10%" />
+        <SVG icon="circle" hiddenMobile width={6} fill={colors.white} left="75%" top="10%" />
         <SVG icon="upDown" hiddenMobile width={8} fill={colors.white} left="45%" top="10%" />
       </UpDownWide>
       <SVG icon="circle" width={6} fill={colors.grey} left="8%" top="40%" />
