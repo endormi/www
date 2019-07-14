@@ -59,14 +59,14 @@ const Index = () => (
           <ProjectCard
             title="django-react-app"
             link="https://github.com/endormi/django-react-app"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+            bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
           >
             API that communicates with the frontend connected to nginx-proxy with docker
           </ProjectCard>
           <ProjectCard
             title="devisle / advanced-react-cli"
             link="https://github.com/devisle/advanced-react-cli"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+            bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
           >
             NPM package which aims to provide a better way to install packages for your react application through an
             intuitive CLI
@@ -74,28 +74,28 @@ const Index = () => (
           <ProjectCard
             title="django-listAPI"
             link="https://github.com/endormi/django-listAPI"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
           >
             API that manages serialization and deserialization
           </ProjectCard>
           <ProjectCard
             title="vscode-2077-theme"
             link="https://github.com/endormi/vscode-2077-theme"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
           >
             Cyberpunk 2077 inspired theme for vscode
           </ProjectCard>
           <ProjectCard
             title="GitFinder"
             link="https://github.com/endormi/GitFinder"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
           >
             Find and fetch user info using GitHub's API
           </ProjectCard>
           <ProjectCard
             title="tennis-game"
             link="https://github.com/endormi/tennis-game"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
           >
             Tennis game (original pong game) made with JS
           </ProjectCard>
