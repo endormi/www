@@ -72,18 +72,18 @@ const Index = () => (
             intuitive CLI
           </ProjectCard>
           <ProjectCard
-            title="django-listAPI"
-            link="https://github.com/endormi/django-listAPI"
-            bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
-          >
-            API that manages serialization and deserialization
-          </ProjectCard>
-          <ProjectCard
             title="vscode-2077-theme"
             link="https://github.com/endormi/vscode-2077-theme"
             bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
           >
             Cyberpunk 2077 inspired theme for vscode
+          </ProjectCard>
+          <ProjectCard
+            title="django-listAPI"
+            link="https://github.com/endormi/django-listAPI"
+            bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
+          >
+            API that manages serialization and deserialization
           </ProjectCard>
           <ProjectCard
             title="GitFinder"
