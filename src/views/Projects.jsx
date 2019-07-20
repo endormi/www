@@ -17,17 +17,14 @@ const Projects = ({ children, offset }) => (
       <UpDown>
         <SVG icon="box" width={6} fill={colors.white} left="85%" top="75%" />
         <SVG icon="triangle" hiddenMobile width={8} stroke={colors.white} left="25%" top="5%" />
-        <SVG icon="circle" hiddenMobile width={6} fill={colors.white} left="17%" top="60%" />
       </UpDown>
       <UpDownWide>
         <SVG icon="arrowUp" hiddenMobile width={16} fill={colors['grey-darkest']} left="25%" top="90%" />
-        <SVG icon="triangle" hiddenMobile width={16} stroke={colors.white} left="13%" top="75%" />
         <SVG icon="circle" hiddenMobile width={6} fill={colors.white} left="75%" top="10%" />
         <SVG icon="upDown" hiddenMobile width={8} fill={colors.white} left="45%" top="10%" />
       </UpDownWide>
       <SVG icon="circle" width={6} fill={colors.grey} left="8%" top="40%" />
       <SVG icon="box" hiddenMobile width={6} fill={colors.white} left="10%" top="10%" />
-      <SVG icon="hexa" hiddenMobile width={16} stroke={colors.white} left="75%" top="30%" />
       <SVG icon="hexa" width={8} stroke={colors.white} left="80%" top="70%" />
     </Divider>
   </>

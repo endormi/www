@@ -14,14 +14,14 @@ const About = ({ children, offset }) => (
       <UpDown>
         <SVG icon="box" hiddenMobile width={6} fill={colors.white} left="50%" top="80%" />
         <SVG icon="upDown" hiddenMobile width={8} fill={colors['grey-darkest']} left="70%" top="20%" />
-        <SVG icon="triangle" width={8} stroke={colors.white} left="25%" top="5%" />
+        <SVG icon="triangle" width={8} stroke={colors.white} left="35%" top="5%" />
       </UpDown>
       <UpDownWide>
         <SVG icon="circle" hiddenMobile width={6} fill={colors.white} left="85%" top="20%" />
         <SVG icon="upDown" hiddenMobile width={8} fill={colors.white} left="52%" top="10%" />
       </UpDownWide>
       <SVG icon="circle" width={6} fill={colors['grey-darkest']} left="4%" top="15%" />
-      <SVG icon="box" hiddenMobile width={6} fill={colors.white} left="10%" top="10%" />
+      <SVG icon="box" hiddenMobile width={6} fill={colors.white} left="10%" top="5%" />
       <SVG icon="hexa" hiddenMobile width={8} stroke={colors.white} left="80%" top="70%" />
     </Divider>
     <Content speed={0.4} offset={offset}>
