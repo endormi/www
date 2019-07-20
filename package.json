@@ -1,7 +1,7 @@
 {
   "name": "endormi-gatsby-portfolio",
   "description": "Gatsby portfolio for Endormi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Endormi <contactendormi@gmail.com> (https://endormi.io)",
   "license": "MIT",
   "dependencies": {
