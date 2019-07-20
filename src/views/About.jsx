@@ -17,7 +17,6 @@ const About = ({ children, offset }) => (
         <SVG icon="triangle" width={8} stroke={colors.white} left="25%" top="5%" />
       </UpDown>
       <UpDownWide>
-        <SVG icon="arrowUp" hiddenMobile width={16} fill={colors.white} left="10%" top="80%" />
         <SVG icon="circle" hiddenMobile width={6} fill={colors.white} left="85%" top="20%" />
         <SVG icon="upDown" hiddenMobile width={8} fill={colors.white} left="52%" top="10%" />
       </UpDownWide>

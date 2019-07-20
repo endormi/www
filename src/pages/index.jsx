@@ -104,9 +104,9 @@ const Index = () => (
       <About offset={3}>
         <Title>Experience</Title>
         <AboutDesc>
-          I'm passionate about all kinds of new web technologies. I have experience with <b>Django</b>, <b>Python</b>,{' '}
-          <b>JavaScript</b>, <b>CI/CD</b> (Travis-CI & CircleCI), <b>API's</b>, <b>Databases</b> (MongoDB & SQLite3) and
-          i'm constantly learning more and bettering my coding skills.
+          I'm passionate about all kinds of new web technologies. I have experience with <b>Python</b>, <b>Django</b>,{' '}
+          <b>JavaScript</b>, <b>CI/CD</b> (Travis-CI & CircleCI), <b>API's</b>, <b>UI Development</b>, <b>Databases</b>{' '}
+          (MongoDB & SQLite3) and i'm constantly learning more and bettering my coding skills.
         </AboutDesc>
       </About>
       <Contact offset={4}>

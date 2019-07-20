@@ -19,7 +19,6 @@ const Hero = ({ children, offset }) => (
         <SVG icon="box" width={6} fill={colors.white} left="50%" top="15%" />
       </UpDown>
       <UpDownWide>
-        <SVG icon="arrowUp" hiddenMobile width={16} fill={colors.white} left="77%" top="10%" />
         <SVG icon="triangle" hiddenMobile width={12} stroke={colors.white} left="85%" top="50%" />
         <SVG icon="circle" width={8} fill={colors.white} left="55%" top="90%" />
         <SVG icon="circle" width={6} fill={colors['grey-darkest']} left="70%" top="10%" />
@@ -30,7 +29,6 @@ const Hero = ({ children, offset }) => (
       <SVG icon="triangle" width={8} stroke={colors.white} left="28%" top="15%" />
       <SVG icon="box" hiddenMobile width={6} fill={colors.white} left="10%" top="10%" />
       <SVG icon="hexa" hiddenMobile width={16} stroke={colors.white} left="5%" top="60%" />
-      <SVG icon="hexa" width={8} stroke={colors.white} left="80%" top="70%" />
     </Divider>
     <Content speed={0.4} offset={offset}>
       <Wrapper>{children}</Wrapper>
