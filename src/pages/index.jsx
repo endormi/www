@@ -48,9 +48,7 @@ const Index = () => (
     <Layout />
     <Parallax pages={5}>
       <Hero offset={0}>
-        <BigTitle>
-          Hello, <br /> I'm Endormi.
-        </BigTitle>
+        <BigTitle>I'm Endormi.</BigTitle>
         <Subtitle>Full Stack Developer, Specializing in Web Development.</Subtitle>
       </Hero>
       <Projects offset={1}>
@@ -93,6 +91,34 @@ const Index = () => (
             Find and fetch user info using GitHub's API
           </ProjectCard>
           <ProjectCard
+            title="face-recognition"
+            link="https://github.com/endormi/face-recognition"
+            bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
+          >
+            Built using face recognition library (v.1.2.3)
+          </ProjectCard>
+          <ProjectCard
+            title="membership-service"
+            link="https://github.com/endormi/membership-service"
+            bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
+          >
+            Membership service that holds courses & memberships
+          </ProjectCard>
+          <ProjectCard
+            title="Data-analysis-and-visualization"
+            link="https://github.com/endormi/data-analysis-and-visualization"
+            bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
+          >
+            Data analysis and visualization
+          </ProjectCard>
+          <ProjectCard
+            title="python-webapp"
+            link="https://github.com/endormi/python-webapp"
+            bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
+          >
+            Simple python CRUD (Create, Read, Update, Delete) web application
+          </ProjectCard>
+          <ProjectCard
             title="tennis-game"
             link="https://github.com/endormi/tennis-game"
             bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
@@ -121,7 +147,7 @@ const Index = () => (
         </Inner>
         <Footer>
           © {new Date().getFullYear()} <a href="https://github.com/endormi">Endormi</a>. This website was built with
-          GatsbyJS.
+          GatsbyJS. <br />
         </Footer>
       </Contact>
     </Parallax>
