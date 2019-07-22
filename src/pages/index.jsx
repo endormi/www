@@ -131,8 +131,9 @@ const Index = () => (
         <Title>Experience</Title>
         <AboutDesc>
           I'm passionate about all kinds of new web technologies. I have experience with <b>Python</b>, <b>Django</b>,{' '}
-          <b>JavaScript</b>, <b>CI/CD</b> (Travis-CI & CircleCI), <b>API's</b>, <b>UI Development</b>, <b>Databases</b>{' '}
-          (MongoDB & SQLite3) and i'm constantly learning more and bettering my coding skills.
+          <b>JavaScript</b>, <b>Node.js</b>, <b>CI/CD</b> (Travis-CI,CircleCI), <b>API's</b> (GitHub,listAPI,DRF API),{' '}
+          <b>UI Development</b>, <b>Databases</b> (MongoDB,SQLite3), <b>Web Security</b> and i'm constantly learning
+          more and bettering my coding skills.
         </AboutDesc>
       </About>
       <Contact offset={4}>
