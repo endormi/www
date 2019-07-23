@@ -80,13 +80,6 @@ const Index = () => (
             Cyberpunk 2077 inspired theme for vscode
           </ProjectCard>
           <ProjectCard
-            title="django-listAPI"
-            link="https://github.com/endormi/django-listAPI"
-            bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
-          >
-            API that manages serialization and deserialization
-          </ProjectCard>
-          <ProjectCard
             title="GitFinder"
             link="https://github.com/endormi/GitFinder"
             bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
@@ -101,13 +94,6 @@ const Index = () => (
             Membership service that holds courses & memberships
           </ProjectCard>
           <ProjectCard
-            title="python-webapp"
-            link="https://github.com/endormi/python-webapp"
-            bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
-          >
-            Simple python CRUD (Create, Read, Update, Delete) web application
-          </ProjectCard>
-          <ProjectCard
             title="tennis-game"
             link="https://github.com/endormi/tennis-game"
             bg="linear-gradient(to right, #0000FF 0%, #0000A0 100%)"
@@ -119,10 +105,9 @@ const Index = () => (
       <About offset={3}>
         <Title>Experience</Title>
         <AboutDesc>
-          I'm passionate about all kinds of new web technologies. I have experience with <b>Python</b>, <b>Django</b>,{' '}
-          <b>JavaScript</b>, <b>Node.js</b>, <b>CI/CD</b> (Travis-CI,CircleCI), <b>API's</b> (GitHub,listAPI,DRF API),{' '}
-          <b>UI Development</b>, <b>Databases</b> (MongoDB,SQLite3), <b>Web Security</b> and i'm constantly learning
-          more and bettering my coding skills.
+          I'm passionate about all kinds of new web technologies. I have experience with Python, Django, JavaScript,
+          Node.js, CI/CD (Travis-CI, CircleCI), API's, UI Development, Databases (MongoDB, SQLite3), Web Security and
+          i'm constantly learning more and bettering my coding skills.
         </AboutDesc>
       </About>
       <Contact offset={4}>
