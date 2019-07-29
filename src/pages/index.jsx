@@ -116,8 +116,7 @@ const Index = () => (
           <ContactText>
             Send me an <a href="mailto:contactendormi@gmail.com">email</a> or find me on other platforms:{' '}
             <a href="https://github.com/endormi">GitHub</a>, <a href="https://www.linkedin.com/in/ernosalo">LinkedIn</a>
-            , <a href="https://codesandbox.io/u/endormi">CodeSandbox</a> &{' '}
-            <a href="https://twitter.com/_endormi">Twitter</a>
+            , & <a href="https://twitter.com/_endormi">Twitter</a>
           </ContactText>
         </Inner>
         <Footer>
