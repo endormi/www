@@ -20,7 +20,7 @@ const About = ({ children, offset }) => (
         <SVG icon="circle" hiddenMobile width={6} fill={colors.white} left="85%" top="20%" />
         <SVG icon="upDown" hiddenMobile width={8} fill={colors.white} left="52%" top="10%" />
       </UpDownWide>
-      <SVG icon="circle" width={6} fill={colors['grey-darkest']} left="4%" top="15%" />
+      <SVG icon="circle" width={6} fill={colors.white} left="4%" top="15%" />
       <SVG icon="box" hiddenMobile width={6} fill={colors.white} left="10%" top="5%" />
       <SVG icon="hexa" hiddenMobile width={8} stroke={colors.white} left="80%" top="70%" />
     </Divider>
