@@ -13,7 +13,6 @@ const About = ({ children, offset }) => (
     <Divider speed={0.1} offset={offset}>
       <UpDown>
         <SVG icon="box" hiddenMobile width={6} fill={colors.white} left="50%" top="80%" />
-        <SVG icon="upDown" hiddenMobile width={8} fill={colors['grey-darkest']} left="70%" top="20%" />
         <SVG icon="triangle" width={8} stroke={colors.white} left="35%" top="5%" />
       </UpDown>
       <UpDownWide>

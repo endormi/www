@@ -16,12 +16,12 @@ const Hero = ({ children, offset }) => (
   <>
     <Divider speed={0.2} offset={offset}>
       <UpDown>
-        <SVG icon="box" width={6} fill={colors.white} left="50%" top="15%" />
+        <SVG icon="box" width={6} fill={colors['grey-darkest']} left="50%" top="15%" />
       </UpDown>
       <UpDownWide>
         <SVG icon="triangle" hiddenMobile width={12} stroke={colors.white} left="85%" top="50%" />
         <SVG icon="circle" width={8} fill={colors.white} left="55%" top="90%" />
-        <SVG icon="circle" width={6} fill={colors['grey-darkest']} left="70%" top="10%" />
+        <SVG icon="circle" width={6} fill={colors.white} left="70%" top="10%" />
       </UpDownWide>
       <SVG icon="circle" width={6} fill={colors['grey-darkest']} left="3%" top="20%" />
       <SVG icon="circle" width={6} fill={colors.white} left="35%" top="80%" />
