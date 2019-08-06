@@ -121,7 +121,8 @@ const Index = () => (
         </Inner>
         <Footer>
           © {new Date().getFullYear()} <a href="https://github.com/endormi">Endormi</a>. This website was built with
-          GatsbyJS. <br /> My <a href="https://gatsby-blog-endormi.netlify.com/">blog</a> about technology.
+          GatsbyJS. <br />
+          My <a href="https://gatsby-blog-endormi.netlify.com/">blog</a> about technology.
         </Footer>
       </Contact>
     </Parallax>

@@ -27,7 +27,7 @@ const upDown = keyframes`
     transform: translateY(0);
   }
   to {
-    transform: translateY(30px);
+    transform: translateY(25px);
   }
 `
 
@@ -36,7 +36,7 @@ const upDownWide = keyframes`
     transform: translateY(0);
   }
   to {
-    transform: translateY(200px);
+    transform: translateY(100px);
   }
 `
 
