@@ -1,54 +1,70 @@
 {
   "name": "endormi-gatsby-portfolio",
-  "description": "Gatsby portfolio for Endormi",
-  "version": "1.0.3",
-  "author": "Endormi <contactendormi@gmail.com> (https://endormi.io)",
-  "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "babel-plugin-styled-components": "^1.10.4",
-    "gatsby": "^2.11.6",
-    "gatsby-image": "^2.2.3",
-    "gatsby-plugin-google-analytics": "^2.1.1",
-    "gatsby-plugin-manifest": "^2.2.0",
-    "gatsby-plugin-netlify": "^2.1.0",
-    "gatsby-plugin-offline": "^2.2.0",
-    "gatsby-plugin-react-helmet": "^3.1.0",
-    "gatsby-plugin-sharp": "^2.2.1",
-    "gatsby-plugin-styled-components": "^3.1.0",
-    "gatsby-source-filesystem": "^2.1.1",
-    "gatsby-transformer-sharp": "^2.2.0",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1",
-    "react-spring": "^8.0.27",
-    "styled-components": "^4.3.2",
-    "tailwind.macro": "^0.5.10",
-    "tailwindcss": "^0.7.4",
-    "typeface-cantata-one": "^0.0.72",
-    "typeface-open-sans": "^0.0.54"
-  },
+  "version": "1.0.0",
+  "description": "Endormi gatsby portfolio",
+  "main": "gatsby-config.js",
   "scripts": {
-    "develop": "gatsby develop",
-    "build": "gatsby build",
-    "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
-    "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore"
+    "build": "gatsby clean && gatsby build",
+    "develop": "gatsby clean && gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "lint": "eslint ./src",
+    "setup": "node ./bin/setup.js"
+  },
+  "author": "Endormi",
+  "license": "MIT",
+  "dependencies": {
+    "contentful": "^7.0.3",
+    "dotenv": "^7.0.0",
+    "envfile": "^3.0.0",
+    "gatsby": "^2.3.27",
+    "gatsby-plugin-google-analytics": "^2.0.18",
+    "gatsby-plugin-manifest": "^2.0.29",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-preload-link-crossorigin": "^1.0.2",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-styled-components": "^3.0.7",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-contentful": "^2.0.52",
+    "gatsby-source-medium": "^2.0.7",
+    "gatsby-transformer-remark": "^2.3.10",
+    "inquirer": "^6.2.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-fontawesome": "^1.6.1",
+    "react-headroom": "^2.2.4",
+    "react-helmet": "^5.2.0",
+    "react-markdown": "^4.0.3",
+    "react-reveal": "^1.2.2",
+    "react-scroll-section": "^1.3.0",
+    "react-text-loop": "^2.0.1",
+    "react-tippy": "^1.2.3",
+    "rebass": "^3.0.0",
+    "styled-components": "^4.0.2"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.2",
-    "eslint": "^6.0.1",
+    "chalk": "^2.4.1",
+    "contentful-import": "^7.4.0",
+    "eslint": "^5.6.0",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-jsx-a11y": "^6.2.2",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.2",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.12.3",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.0",
     "prettier": "^1.18.2"
   },
-  "repository": {
-    "url": "https://github.com/endormi/portfolio",
-    "type": "git"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
-  "homepage": "https://endormi.io"
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
 }

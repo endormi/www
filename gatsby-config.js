@@ -1,39 +1,58 @@
-const config = require('./config/website')
+const contentful = require('contentful');
+const manifestConfig = require('./manifest-config');
+require('dotenv').config();
 
-const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
+const { ACCESS_TOKEN, SPACE_ID, ANALYTICS_ID } = process.env;
 
-module.exports = {
-  /* General Information */
-  siteMetadata: {
-    siteUrl: config.siteUrl + pathPrefix,
+const client = contentful.createClient({
+  space: SPACE_ID,
+  accessToken: ACCESS_TOKEN,
+});
+
+const getAboutEntry = entry => entry.sys.contentType.sys.id === 'about';
+
+const plugins = [
+  'gatsby-plugin-react-helmet',
+  {
+    resolve: 'gatsby-plugin-web-font-loader',
+    options: {
+      google: {
+        families: ['Cabin', 'Open Sans'],
+      },
+    },
   },
-  /* Plugins */
-  plugins: [
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-styled-components',
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/src/images/`,
-        name: 'images',
-      },
+  {
+    resolve: 'gatsby-plugin-manifest',
+    options: manifestConfig,
+  },
+  'gatsby-plugin-styled-components',
+  {
+    resolve: 'gatsby-source-contentful',
+    options: {
+      spaceId: SPACE_ID,
+      accessToken: ACCESS_TOKEN,
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
-    {
-      resolve: 'gatsby-plugin-manifest',
+  },
+  'gatsby-transformer-remark',
+  'gatsby-plugin-offline',
+];
+
+module.exports = client.getEntries().then(entries => {
+  const { mediumUser } = entries.items.find(getAboutEntry).fields;
+
+  if (ANALYTICS_ID) {
+    plugins.push({
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
-        name: config.siteTitle,
-        short_name: config.siteTitleShort,
-        description: config.siteDescription,
-        start_url: config.pathPrefix,
-        background_color: config.backgroundColor,
-        theme_color: config.themeColor,
-        display: 'standalone',
+        trackingId: ANALYTICS_ID,
       },
+    });
+  }
+
+  return {
+    siteMetadata: {
+      isMediumUserDefined: !!mediumUser,
     },
-    /* Must be placed at the end */
-    'gatsby-plugin-offline',
-    'gatsby-plugin-netlify',
-  ],
-}
+    plugins,
+  };
+});
