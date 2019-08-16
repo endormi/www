@@ -59,3 +59,6 @@ public/
 bundle-stats.json
 
 tailwind.custom.css
+
+bin/
+.env
