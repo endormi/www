@@ -8,5 +8,5 @@ module.exports = {
 
   secondary: 'dodgerblue',
   secondaryLight: '#fff',
-  secondaryDark: '#7ab4ff',
+  secondaryDark: '#333',
 };
