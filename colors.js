@@ -1,6 +1,6 @@
 module.exports = {
   background: '#FFFFFF',
-  backgroundDark: '#daeef7',
+  backgroundDark: '#95c3fc',
 
   primary: 'navy',
   primaryLight: 'dodgerblue',
@@ -8,5 +8,5 @@ module.exports = {
 
   secondary: 'dodgerblue',
   secondaryLight: '#fff',
-  secondaryDark: '#333',
+  secondaryDark: '#000',
 };

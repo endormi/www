@@ -60,5 +60,4 @@ bundle-stats.json
 
 tailwind.custom.css
 .env
-netlify.toml
 bin/
