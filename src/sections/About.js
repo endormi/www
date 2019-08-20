@@ -11,7 +11,7 @@ import markdownRenderer from '../components/MarkdownRenderer';
 const Background = () => (
   <div>
     <Triangle
-      color="#2d5980"
+      color="#7ac142"
       height={['50vh', '13vh']}
       width={['60vw', '49vw']}
       invertY
