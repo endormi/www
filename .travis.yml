@@ -11,7 +11,6 @@ cache:
 install: yarn
 
 script:
-  - yarn build
   - yarn lint
 
 branches:
