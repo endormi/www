@@ -8,15 +8,15 @@ const Background = () => (
   <div>
     <Triangle
       color="backgroundDark"
-      height={['35vh', '40vh']}
+      height={['35vh', '25vh']}
       width={['95vw', '60vw']}
       invertY
     />
 
     <Triangle
       color="primary"
-      height={['25vh', '35vh']}
-      width={['75vw', '60vw']}
+      height={['25vh', '30vh']}
+      width={['75vw', '70vw']}
       invertX
     />
   </div>
@@ -29,7 +29,7 @@ const NotFoundPage = () => (
         <Heading color="primaryDark" fontSize={['9rem', '13rem', '16rem']}>
           404
         </Heading>
-        <Heading color="secondary" fontSize={['4rem', '5rem', '6rem']}>
+        <Heading color="#2d5980" fontSize={['4rem', '5rem', '6rem']}>
           {"There isn't anything here"}
         </Heading>
       </Box>
