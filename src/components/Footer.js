@@ -61,6 +61,7 @@ const Footer = () => (
                 <Link href="https://www.contentful.com/" mr={1}>
                   Contentful
                 </Link>
+                <span> - My <Link href="https://endormi-blog.netlify.com/">blog</Link></span>
               </TextFooter>
             </Fade>
             <Flex>
