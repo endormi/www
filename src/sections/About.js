@@ -16,18 +16,12 @@ const Background = () => (
       width={['70vw', '70vw']}
       invertX
     />
-
-    <Triangle
-      color="backgroundDark"
-      height={['25vh', '2vh']}
-      width={['100vw', '35vw']}
-    />
   </div>
 );
 
 const ProfilePicture = styled(Image)`
   border-radius: 50%;
-  transition: all 0.25s ease-out;
+  transition: all 0.15s ease-out;
 
   &:hover {
     border-radius: 20%;

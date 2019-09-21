@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import FontAwesomeIcon from 'react-fontawesome';
 
 const IconLink = styled(Link)`
-  transition: color 0.5s;
+  transition: color 0.25s;
   color: ${props =>
     props.theme.colors[props.color] || props.theme.colors.primary};
   text-decoration: none;

@@ -22,20 +22,20 @@ const BORDER_RADIUS_MAP = {
 const ImageSubtitle = styled(Box)`
   position: absolute;
   display: inline;
-  padding: 10px;
-  font-size: 14px;
-  font-weight: 600;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 500;
   text-transform: uppercase;
 
   ${props => props.x}: 0;
   ${props => props.y}: 0;
-  
+
   ${props =>
     props.x === 'left'
       ? `padding-right: ${BORDER_SPACING};`
       : `padding-left: ${BORDER_SPACING};`}
   clip-path: ${props => BORDER_PATH_MAP[`${props.y}-${props.x}`]};
-  
+
   ${props =>
     props.round &&
     `border-radius: ${BORDER_RADIUS_MAP[`${props.y}-${props.x}`]};`}

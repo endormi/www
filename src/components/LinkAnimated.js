@@ -21,7 +21,7 @@ const LinkAnimated = styled.span`
     background: ${props => props.theme.colors.secondaryLight};
     height: 5px;
     transition-property: width;
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
     transition-timing-function: ease-out;
   }
 

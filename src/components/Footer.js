@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 import SocialLink from './SocialLink';
 
 const FooterContainer = styled.footer`
-  min-width: 320px;
+  min-width: 300px;
   max-width: 1366px;
   display: flex;
   flex: 0 1 auto;

@@ -10,12 +10,12 @@ import Helmet from './Helmet';
 const GlobalStyle = createGlobalStyle`
   *,
   *::after,
-  *::before { 
+  *::before {
     box-sizing: inherit;
     }
 
   body {
-    box-sizing: border-box; 
+    box-sizing: border-box;
     margin: 0;
     font-family: Cabin, 'Open Sans', sans-serif;
     font-display: swap;
