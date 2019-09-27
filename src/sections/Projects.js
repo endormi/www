@@ -11,31 +11,28 @@ import Triangle from '../components/Triangle';
 import ImageSubtitle from '../components/ImageSubtitle';
 import Hide from '../components/Hide';
 
-const Background = () => (
-  <div>
-    <Triangle
-      color="background"
-      height={['50vh', '20vh']}
-      width={['50vw', '50vw']}
-      invertX
-    />
+const Background = () => {
+  return (
+    <div>
+      <Triangle color="background" height={['50vh', '20vh']} width={['50vw', '50vw']} invertX />
 
-    <Triangle
-      color="#2d5980"
-      height={['25vh', '50vh']}
-      width={['75vw', '80vw']}
-      invertX
-      invertY
-    />
+      <Triangle
+        color="#2d5980"
+        height={['25vh', '50vh']}
+        width={['75vw', '80vw']}
+        invertX
+        invertY
+      />
 
-    <Triangle
-      color="backgroundDark"
-      height={['25vh', '8vh']}
-      width={['100vw', '145vw']}
-      invertY
-    />
-  </div>
-);
+      <Triangle
+        color="backgroundDark"
+        height={['25vh', '8vh']}
+        width={['100vw', '145vw']}
+        invertY
+      />
+    </div>
+  );
+};
 
 const CARD_HEIGHT = '200px';
 
@@ -46,7 +43,10 @@ const Title = styled(Text)`
   font-weight: 600;
   text-transform: uppercase;
   display: table;
-  border-bottom: ${props => props.theme.colors.primary} 5px solid;
+  border-bottom: ${props => {
+      return props.theme.colors.primary;
+    }}
+    5px solid;
 `;
 
 const TextContainer = styled.div`
@@ -87,71 +87,55 @@ const ProjectImage = styled(Image)`
 const ProjectTag = styled.div`
   position: relative;
   height: ${CARD_HEIGHT};
-  top: calc(
-    -${CARD_HEIGHT} - 3.5px
-  ); /*don't know why I have to add 3.5px here ... */
+  top: calc(-${CARD_HEIGHT} - 3.5px); /*don't know why I have to add 3.5px here ... */
 
   ${MEDIA_QUERY_SMALL} {
     top: calc(-${CARD_HEIGHT} - 3.5px + (${CARD_HEIGHT} / 4));
   }
 `;
 
-const Project = ({
-  name,
-  description,
-  projectUrl,
-  repositoryUrl,
-  type,
-  publishedDate,
-  logo,
-}) => (
-  <Card p={0}>
-    <Flex style={{ height: CARD_HEIGHT }}>
-      <TextContainer>
-        <span>
-          <Title my={2} pb={1}>
-            {name}
-          </Title>
-        </span>
-        <Text width={[1]} style={{ overflow: 'auto' }}>
-          {description}
-        </Text>
-      </TextContainer>
+const Project = ({ name, description, projectUrl, repositoryUrl, type, publishedDate, logo }) => {
+  return (
+    <Card p={0}>
+      <Flex style={{ height: CARD_HEIGHT }}>
+        <TextContainer>
+          <span>
+            <Title my={2} pb={1}>
+              {name}
+            </Title>
+          </span>
+          <Text width={[1]} style={{ overflow: 'auto' }}>
+            {description}
+          </Text>
+        </TextContainer>
 
-      <ImageContainer>
-        <ProjectImage src={logo.image.src} alt={logo.title} />
-        <ProjectTag>
-          <Flex
-            style={{
-              float: 'right',
-            }}
-          >
-            <Box mx={1} fontSize={5}>
-              <SocialLink
-                name="Check repository"
-                fontAwesomeIcon="github"
-                url={repositoryUrl}
-              />
-            </Box>
-            <Box mx={1} fontSize={5}>
-              <SocialLink
-                name="See project"
-                fontAwesomeIcon="globe"
-                url={projectUrl}
-              />
-            </Box>
-          </Flex>
-          <ImageSubtitle bg="primary" color="white" y="bottom" x="right" round>
-            {type}
-          </ImageSubtitle>
-          <Hide query={MEDIA_QUERY_SMALL}>
-            <ImageSubtitle bg="backgroundDark">{publishedDate}</ImageSubtitle>
-          </Hide>
-        </ProjectTag>
-      </ImageContainer>
-    </Flex>
-  </Card>
-);
+        <ImageContainer>
+          <ProjectImage src={logo.image.src} alt={logo.title} />
+          <ProjectTag>
+            <Flex
+              style={{
+                float: 'right',
+              }}
+            >
+              <Box mx={1} fontSize={5}>
+                <SocialLink name="Check repository" fontAwesomeIcon="github" url={repositoryUrl} />
+              </Box>
+              <Box mx={1} fontSize={5}>
+                <SocialLink name="See project" fontAwesomeIcon="globe" url={projectUrl} />
+              </Box>
+            </Flex>
+            <ImageSubtitle bg="primary" color="white" y="bottom" x="right" round>
+              {type}
+            </ImageSubtitle>
+            <Hide query={MEDIA_QUERY_SMALL}>
+              <ImageSubtitle bg="backgroundDark">{publishedDate}</ImageSubtitle>
+            </Hide>
+          </ProjectTag>
+        </ImageContainer>
+      </Flex>
+    </Card>
+  );
+};
 
 Project.propTypes = {
   name: PropTypes.string.isRequired,
@@ -168,42 +152,48 @@ Project.propTypes = {
   }).isRequired,
 };
 
-const Projects = () => (
-  <Section.Container id="projects" Background={Background}>
-    <Section.Header name="Projects" label="notebook" />
-    <StaticQuery
-      query={graphql`
-        query ProjectsQuery {
-          contentfulAbout {
-            projects {
-              id
-              name
-              description
-              projectUrl
-              repositoryUrl
-              publishedDate(formatString: "YYYY")
-              type
-              logo {
-                title
-                image: resize(width: 200, quality: 100) {
-                  src
+const Projects = () => {
+  return (
+    <Section.Container id="projects" Background={Background}>
+      <Section.Header name="Projects" label="notebook" />
+      <StaticQuery
+        query={graphql`
+          query ProjectsQuery {
+            contentfulAbout {
+              projects {
+                id
+                name
+                description
+                projectUrl
+                repositoryUrl
+                publishedDate(formatString: "YYYY")
+                type
+                logo {
+                  title
+                  image: resize(width: 200, quality: 100) {
+                    src
+                  }
                 }
               }
             }
           }
-        }
-      `}
-      render={({ contentfulAbout }) => (
-        <CardContainer minWidth="350px">
-          {contentfulAbout.projects.map((p, i) => (
-            <Fade bottom delay={i * 200} key={p.id}>
-              <Project {...p} />
-            </Fade>
-          ))}
-        </CardContainer>
-      )}
-    />
-  </Section.Container>
-);
+        `}
+        render={({ contentfulAbout }) => {
+          return (
+            <CardContainer minWidth="350px">
+              {contentfulAbout.projects.map((p, i) => {
+                return (
+                  <Fade bottom delay={i * 200} key={p.id}>
+                    <Project {...p} />
+                  </Fade>
+                );
+              })}
+            </CardContainer>
+          );
+        }}
+      />
+    </Section.Container>
+  );
+};
 
 export default Projects;

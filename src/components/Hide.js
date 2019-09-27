@@ -7,24 +7,32 @@ const breakpoints = {
   lg: '@media screen and (min-width: 64em)',
 };
 
-const hidden = key => props =>
-  props[key] && {
-    [breakpoints[key]]: {
-      display: 'none',
-    },
+const hidden = key => {
+  return props => {
+    return (
+      props[key] && {
+        [breakpoints[key]]: {
+          display: 'none',
+        },
+      }
+    );
   };
+};
 
 const xs = hidden('xs');
 const sm = hidden('sm');
 const md = hidden('md');
 const lg = hidden('lg');
 
-const customQuery = props =>
-  props.query && {
-    [props.query]: {
-      display: 'none',
-    },
-  };
+const customQuery = props => {
+  return (
+    props.query && {
+      [props.query]: {
+        display: 'none',
+      },
+    }
+  );
+};
 
 const Hide = styled.div([], xs, sm, md, lg, customQuery);
 

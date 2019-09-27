@@ -6,14 +6,16 @@ import Projects from '../sections/Projects';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-const IndexPage = () => (
-  <Layout>
-    <Header />
-    <Landing />
-    <About />
-    <Projects />
-    <Footer />
-  </Layout>
-);
+const IndexPage = () => {
+  return (
+    <Layout>
+      <Header />
+      <Landing />
+      <About />
+      <Projects />
+      <Footer />
+    </Layout>
+  );
+};
 
 export default IndexPage;

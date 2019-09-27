@@ -17,68 +17,72 @@ const FooterContainer = styled.footer`
 `;
 
 const TextFooter = styled(Text)`
-  color: ${props => props.theme.colors.background};
+  color: ${props => {
+    return props.theme.colors.background;
+  }};
 
   & a {
-    color: ${props => props.theme.colors.background};
+    color: ${props => {
+      return props.theme.colors.background;
+    }};
   }
 `;
 
-const Footer = () => (
-  <StaticQuery
-    query={graphql`
-      query FooterQuery {
-        contentfulAbout {
-          name
-          roles
-          socialLinks {
-            id
-            url
+const Footer = () => {
+  return (
+    <StaticQuery
+      query={graphql`
+        query FooterQuery {
+          contentfulAbout {
             name
-            fontAwesomeIcon
+            roles
+            socialLinks {
+              id
+              url
+              name
+              fontAwesomeIcon
+            }
           }
         }
-      }
-    `}
-    render={data => {
-      const { name, socialLinks } = data.contentfulAbout;
+      `}
+      render={data => {
+        const { name, socialLinks } = data.contentfulAbout;
 
-      return (
-        <Box p={5} backgroundColor="primaryDark">
-          <FooterContainer>
-            <Fade left>
-              <TextFooter fontSize={[2, 3]}>
-                <span>
-                  {`${name} Portfolio `}
-                  {' '}
-                  ©
-                  {' '}
-                  {new Date().getFullYear()}
-                </span>
-                <span> - Powered by </span>
-                <Link href="https://www.gatsbyjs.org/">Gatsby</Link>
-                <span> and </span>
-                <Link href="https://www.contentful.com/" mr={1}>
-                  Contentful
-                </Link>
-                <span> - </span>
-                <Link href="https://endormi-blog.netlify.com/">My blog</Link>
-              </TextFooter>
-            </Fade>
-            <Flex>
-              <Fade right>
-                {socialLinks.map(({ id, ...rest }) => (
-                  <Box mx={[2, 3]} fontSize={[4, 5]} key={id}>
-                    <SocialLink {...rest} color="background" />
-                  </Box>
-                ))}
+        return (
+          <Box p={5} backgroundColor="primaryDark">
+            <FooterContainer>
+              <Fade left>
+                <TextFooter fontSize={[2, 3]}>
+                  <span>
+                    {`${name} Portfolio `} © {new Date().getFullYear()}
+                  </span>
+                  <span> - Powered by </span>
+                  <Link href="https://www.gatsbyjs.org/">Gatsby</Link>
+                  <span> and </span>
+                  <Link href="https://www.contentful.com/" mr={1}>
+                    Contentful
+                  </Link>
+                  <span> - </span>
+                  <Link href="https://endormi-blog.netlify.com/">My blog</Link>
+                </TextFooter>
               </Fade>
-            </Flex>
-          </FooterContainer>
-        </Box>
-      );
-    }}
-  />
-);
+              <Flex>
+                <Fade right>
+                  {socialLinks.map(({ id, ...rest }) => {
+                    return (
+                      <Box mx={[2, 3]} fontSize={[4, 5]} key={id}>
+                        <SocialLink {...rest} color="background" />
+                      </Box>
+                    );
+                  })}
+                </Fade>
+              </Flex>
+            </FooterContainer>
+          </Box>
+        );
+      }}
+    />
+  );
+};
 
 export default Footer;

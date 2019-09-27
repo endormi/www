@@ -19,14 +19,18 @@ const SectionContainer = styled.div`
   scroll-behavior: smooth;
 `;
 
-const DefaultBackground = () => <div />;
+const DefaultBackground = () => {
+  return <div />;
+};
 
-const Container = ({ id, children, Background = DefaultBackground }) => (
-  <Section id={id} style={{ position: 'relative' }}>
-    <Background />
-    <SectionContainer>{children}</SectionContainer>
-  </Section>
-);
+const Container = ({ id, children, Background = DefaultBackground }) => {
+  return (
+    <Section id={id} style={{ position: 'relative' }}>
+      <Background />
+      <SectionContainer>{children}</SectionContainer>
+    </Section>
+  );
+};
 
 Container.propTypes = {
   id: PropTypes.string.isRequired,
@@ -34,20 +38,22 @@ Container.propTypes = {
   Background: PropTypes.func,
 };
 
-const Header = ({ name, icon = '', label = '' }) => (
-  <Slide left>
-    <Heading color="secondaryDark" mb={4}>
-      <LinkAnimated selected>
-        {name}
-        {icon && (
-          <span role="img" aria-label={label} style={{ marginLeft: '10px' }}>
-            {icon}
-          </span>
-        )}
-      </LinkAnimated>
-    </Heading>
-  </Slide>
-);
+const Header = ({ name, icon = '', label = '' }) => {
+  return (
+    <Slide left>
+      <Heading color="secondaryDark" mb={4}>
+        <LinkAnimated selected>
+          {name}
+          {icon && (
+            <span role="img" aria-label={label} style={{ marginLeft: '10px' }}>
+              {icon}
+            </span>
+          )}
+        </LinkAnimated>
+      </Heading>
+    </Slide>
+  );
+};
 
 Header.propTypes = {
   name: PropTypes.string.isRequired,

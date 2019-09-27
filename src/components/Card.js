@@ -7,7 +7,12 @@ export const CardContainer = styled.div`
 
   grid-template-columns: repeat(
     auto-fill,
-    minmax(${props => props.minWidth}, 1fr)
+    minmax(
+      ${props => {
+        return props.minWidth;
+      }},
+      1fr
+    )
   );
   justify-items: center;
 
@@ -23,11 +28,13 @@ export const Card = styled(CardRebass).attrs({
 })`
   position: relative;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  border: 1px solid #D3D3D3;
+  border: 1px solid #d3d3d3;
   transition: all 0.1s;
   top: 0;
   height: 100%;
-  cursor: ${props => (props.onClick ? 'pointer' : 'default')};
+  cursor: ${props => {
+    return props.onClick ? 'pointer' : 'default';
+  }};
 
   &:hover {
     top: -5px;

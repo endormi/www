@@ -2,6 +2,7 @@ language: node_js
 
 node_js:
   - 'node'
+  - '12'
   - '10'
 
 cache:
@@ -16,7 +17,8 @@ notifications:
 install: yarn
 
 script:
-  - yarn lint
+  - yarn linter
+  - yarn linter:fix
 
 branches:
   only: master

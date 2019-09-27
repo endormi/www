@@ -27,18 +27,25 @@ const ImageSubtitle = styled(Box)`
   font-weight: 500;
   text-transform: uppercase;
 
-  ${props => props.x}: 0;
-  ${props => props.y}: 0;
+  ${props => {
+    return props.x;
+  }}: 0;
+  ${props => {
+    return props.y;
+  }}: 0;
 
-  ${props =>
-    props.x === 'left'
+  ${props => {
+    return props.x === 'left'
       ? `padding-right: ${BORDER_SPACING};`
-      : `padding-left: ${BORDER_SPACING};`}
-  clip-path: ${props => BORDER_PATH_MAP[`${props.y}-${props.x}`]};
+      : `padding-left: ${BORDER_SPACING};`;
+  }}
+  clip-path: ${props => {
+    return BORDER_PATH_MAP[`${props.y}-${props.x}`];
+  }};
 
-  ${props =>
-    props.round &&
-    `border-radius: ${BORDER_RADIUS_MAP[`${props.y}-${props.x}`]};`}
+  ${props => {
+    return props.round && `border-radius: ${BORDER_RADIUS_MAP[`${props.y}-${props.x}`]};`;
+  }}
 `;
 
 ImageSubtitle.propTypes = {
