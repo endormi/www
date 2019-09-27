@@ -1,9 +1,9 @@
-import React from 'react';
-import styled from 'styled-components';
-import { StaticQuery, graphql } from 'gatsby';
-import { Text, Box, Link, Flex } from 'rebass';
-import Fade from 'react-reveal/Fade';
-import SocialLink from './SocialLink';
+import React from "react";
+import styled from "styled-components";
+import { StaticQuery, graphql } from "gatsby";
+import { Text, Box, Link, Flex } from "rebass";
+import Fade from "react-reveal/Fade";
+import SocialLink from "./SocialLink";
 
 const FooterContainer = styled.footer`
   min-width: 300px;

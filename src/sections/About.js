@@ -1,17 +1,22 @@
-import React from 'react';
-import { Box, Image, Flex } from 'rebass';
-import { StaticQuery, graphql } from 'gatsby';
-import styled from 'styled-components';
-import ReactMarkdown from 'react-markdown';
-import Fade from 'react-reveal/Fade';
-import Section from '../components/Section';
-import Triangle from '../components/Triangle';
-import markdownRenderer from '../components/MarkdownRenderer';
+import React from "react";
+import { Box, Image, Flex } from "rebass";
+import { StaticQuery, graphql } from "gatsby";
+import styled from "styled-components";
+import ReactMarkdown from "react-markdown";
+import Fade from "react-reveal/Fade";
+import Section from "../components/Section";
+import Triangle from "../components/Triangle";
+import markdownRenderer from "../components/MarkdownRenderer";
 
 const Background = () => {
   return (
     <div>
-      <Triangle color="primary" height={['20vh', '15vh']} width={['70vw', '70vw']} invertX />
+      <Triangle
+        color="primary"
+        height={["20vh", "15vh"]}
+        width={["70vw", "70vw"]}
+        invertX
+      />
     </div>
   );
 };
@@ -60,7 +65,10 @@ const About = () => {
                 </Fade>
               </Box>
 
-              <Box width={[1, 1, 2 / 6]} style={{ maxWidth: '300px', margin: 'auto' }}>
+              <Box
+                width={[1, 1, 2 / 6]}
+                style={{ maxWidth: "300px", margin: "auto" }}
+              >
                 <Fade right>
                   <ProfilePicture
                     src={profile.image.src}

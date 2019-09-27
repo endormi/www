@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactHelmet from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
-import { withTheme } from 'styled-components';
-import PropTypes from 'prop-types';
+import React from "react";
+import ReactHelmet from "react-helmet";
+import { StaticQuery, graphql } from "gatsby";
+import { withTheme } from "styled-components";
+import PropTypes from "prop-types";
 
 const Helmet = ({ theme = {} }) => {
   return (
@@ -34,7 +34,7 @@ const Helmet = ({ theme = {} }) => {
         const title = `${name} Portfolio`;
 
         return (
-          <ReactHelmet htmlAttributes={{ lang: 'en' }}>
+          <ReactHelmet htmlAttributes={{ lang: "en" }}>
             <meta charSet="utf-8" />
             <title>{title}</title>
             <meta name="description" content={description} />
@@ -53,9 +53,19 @@ const Helmet = ({ theme = {} }) => {
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:title" content={title} />
             <meta name="twitter:description" content={description} />
-            <meta name="twitter:image" content={`https:${profile.bigIcon.src}`} />
-            <meta name="twitter:image:src" content={`https:${profile.bigIcon.src}`} />
-            <link rel="apple-touch-icon" sizes="180x180" href={`https:${profile.appleIcon.src}`} />
+            <meta
+              name="twitter:image"
+              content={`https:${profile.bigIcon.src}`}
+            />
+            <meta
+              name="twitter:image:src"
+              content={`https:${profile.bigIcon.src}`}
+            />
+            <link
+              rel="apple-touch-icon"
+              sizes="180x180"
+              href={`https:${profile.appleIcon.src}`}
+            />
             <link
               rel="icon"
               type="image/png"
@@ -77,7 +87,7 @@ const Helmet = ({ theme = {} }) => {
 
 Helmet.propTypes = {
   // eslint-disable-next-line
-  theme: PropTypes.object,
+  theme: PropTypes.object
 };
 
 export default withTheme(Helmet);

@@ -1,6 +1,6 @@
-import React from 'react';
-import styled, { keyframes } from 'styled-components';
-import PropTypes from 'prop-types';
+import React from "react";
+import styled, { keyframes } from "styled-components";
+import PropTypes from "prop-types";
 
 const MouseContainer = styled.svg`
   max-width: 2.5rem;
@@ -39,7 +39,7 @@ const ScrollAnimation = keyframes`
 const Mouse = styled.rect.attrs(props => {
   return {
     stroke: props.theme.colors.primary,
-    strokeWidth: '3',
+    strokeWidth: "3"
   };
 })``;
 
@@ -69,7 +69,7 @@ const MouseIcon = ({ onClick }) => {
 };
 
 MouseIcon.propTypes = {
-  onClick: PropTypes.func,
+  onClick: PropTypes.func
 };
 
 export default MouseIcon;

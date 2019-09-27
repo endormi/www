@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const LinkAnimated = styled.span`
   text-decoration: none;
@@ -7,15 +7,18 @@ const LinkAnimated = styled.span`
   padding-bottom: 5px;
   color: inherit;
   ${props => {
-    return props.selected && `border-bottom:  5px solid ${props.theme.colors.primaryLight}`;
+    return (
+      props.selected &&
+      `border-bottom:  5px solid ${props.theme.colors.primaryLight}`
+    );
   }};
   transition: 0.4s;
   cursor: ${props => {
-    return props.onClick ? 'pointer' : 'default';
+    return props.onClick ? "pointer" : "default";
   }};
 
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     right: 0;
     width: 0;

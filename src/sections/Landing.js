@@ -1,22 +1,35 @@
-import React, { Fragment } from 'react';
-import { StaticQuery, graphql } from 'gatsby';
-import { Heading, Flex, Box, Text } from 'rebass';
-import TextLoop from 'react-text-loop';
-import Section from '../components/Section';
-import SocialLink from '../components/SocialLink';
-import Triangle from '../components/Triangle';
+import React, { Fragment } from "react";
+import { StaticQuery, graphql } from "gatsby";
+import { Heading, Flex, Box, Text } from "rebass";
+import TextLoop from "react-text-loop";
+import Section from "../components/Section";
+import SocialLink from "../components/SocialLink";
+import Triangle from "../components/Triangle";
 
 const Background = () => {
   return (
     <div>
-      <Triangle color="primaryDark" height={['25vh', '28vh']} width={['75vw', '65vw']} invertX />
+      <Triangle
+        color="primaryDark"
+        height={["25vh", "28vh"]}
+        width={["75vw", "65vw"]}
+        invertX
+      />
 
-      <Triangle color="#b2b7bb" height={['20vh', '25vh']} width={['80vw', '60vw']} invertY />
+      <Triangle
+        color="#b2b7bb"
+        height={["20vh", "25vh"]}
+        width={["80vw", "60vw"]}
+        invertY
+      />
     </div>
   );
 };
 
-const centerHorizontally = { marginRight: 'auto', marginLeft: 'auto' };
+const centerHorizontally = {
+  marginRight: "auto",
+  marginLeft: "auto"
+};
 
 const LandingPage = () => {
   return (

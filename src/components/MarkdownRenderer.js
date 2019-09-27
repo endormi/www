@@ -1,7 +1,7 @@
-import React from 'react';
-import { SectionLink } from 'react-scroll-section';
-import styled from 'styled-components';
-import PropTypes from 'prop-types';
+import React from "react";
+import { SectionLink } from "react-scroll-section";
+import styled from "styled-components";
+import PropTypes from "prop-types";
 
 const StyledLink = styled.a`
   display: inline-block;
@@ -16,7 +16,7 @@ const StyledLink = styled.a`
     bottom: -1px;
     left: 50%;
     transform: translateX(-50%);
-    content: '';
+    content: "";
     width: 100%;
     height: 3px;
     background-color: ${props => {
@@ -53,7 +53,7 @@ const MarkdownListItem = styled.li`
 `;
 
 const MarkdownLink = ({ href, children }) => {
-  const isInnerLink = href.startsWith('#');
+  const isInnerLink = href.startsWith("#");
   return isInnerLink ? (
     <SectionLink section={href.substring(1, href.length)}>
       {({ onClick }) => {
@@ -69,18 +69,21 @@ const MarkdownLink = ({ href, children }) => {
 
 MarkdownLink.propTypes = {
   href: PropTypes.string.isRequired,
-  children: PropTypes.node,
+  children: PropTypes.node
 };
 
 export default {
+  // eslint-disable-next-line react/display-name
   paragraph: props => {
     return <MarkdownParagraph {...props} />;
   },
+  // eslint-disable-next-line react/display-name
   list: props => {
     return <MarkdownList {...props} />;
   },
+  // eslint-disable-next-line react/display-name
   listItem: props => {
     return <MarkdownListItem {...props} />;
   },
-  link: MarkdownLink,
+  link: MarkdownLink
 };
