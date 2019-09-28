@@ -3,18 +3,6 @@
     "endormi"
   ],
   "rules": {
-    "react/prop-types": 0,
-    "react/destructuring-assignment": 0,
-    "no-undef": 0,
-    "react/no-danger": 0,
-    "prefer-destructuring": 0,
-    "prettier/prettier": [
-      "error",
-      {
-        "trailingComma": "es5",
-	      "tabWidth": 4,
-        "singleQuote": true
-      }
-    ]
+    "no-undef": 0
   }
 }
