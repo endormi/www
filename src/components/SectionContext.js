@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
 const noop = () => {
   return false;
@@ -7,12 +7,12 @@ const noop = () => {
 
 const { Provider, Consumer } = React.createContext({
   sections: [],
-  addSection: noop,
+  addSection: noop
 });
 
 export class SectionProvider extends React.Component {
   state = {
-    sections: [],
+    sections: []
   };
 
   addSection = section => {
@@ -26,7 +26,7 @@ export class SectionProvider extends React.Component {
     const { children } = this.props;
     const value = {
       sections,
-      addSection: this.addSection,
+      addSection: this.addSection
     };
 
     return <Provider value={value}>{children}</Provider>;
@@ -34,7 +34,7 @@ export class SectionProvider extends React.Component {
 }
 
 SectionProvider.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.node
 };
 
 export const SectionConsumer = Consumer;

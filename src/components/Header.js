@@ -60,7 +60,7 @@ const Header = () => {
                   width="75px"
                   alt="Portfolio Logo"
                   onClick={home.onClick}
-                  style={{
+                  stssyle={{
                     cursor: "pointer"
                   }}
                 />

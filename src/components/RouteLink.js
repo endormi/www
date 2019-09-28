@@ -1,7 +1,7 @@
-import React from 'react';
-import { Box } from 'rebass';
-import PropTypes from 'prop-types';
-import LinkAnimated from './LinkAnimated';
+import React from "react";
+import { Box } from "rebass";
+import PropTypes from "prop-types";
+import LinkAnimated from "./LinkAnimated";
 
 const RouteLink = ({ onClick, selected, children }) => {
   return (
@@ -16,7 +16,7 @@ const RouteLink = ({ onClick, selected, children }) => {
 RouteLink.propTypes = {
   onClick: PropTypes.func,
   selected: PropTypes.bool,
-  children: PropTypes.node,
+  children: PropTypes.node
 };
 
 export default RouteLink;

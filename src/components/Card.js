@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { Card as CardRebass } from 'rebass';
+import styled from "styled-components";
+import { Card as CardRebass } from "rebass";
 
 export const CardContainer = styled.div`
   display: grid;
@@ -22,9 +22,9 @@ export const CardContainer = styled.div`
 `;
 
 export const Card = styled(CardRebass).attrs({
-  bg: 'white',
+  bg: "white",
   boxShadow: 0,
-  borderRadius: 8,
+  borderRadius: 8
 })`
   position: relative;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
@@ -33,7 +33,7 @@ export const Card = styled(CardRebass).attrs({
   top: 0;
   height: 100%;
   cursor: ${props => {
-    return props.onClick ? 'pointer' : 'default';
+    return props.onClick ? "pointer" : "default";
   }};
 
   &:hover {
