@@ -1,40 +1,42 @@
-const contentful = require('contentful');
-const manifestConfig = require('./manifest-config');
-require('dotenv').config();
+const contentful = require("contentful");
+const manifestConfig = require("./manifest-config");
+require("dotenv").config();
 
 const { ACCESS_TOKEN, SPACE_ID, ANALYTICS_ID } = process.env;
 
 const client = contentful.createClient({
   space: SPACE_ID,
-  accessToken: ACCESS_TOKEN,
+  accessToken: ACCESS_TOKEN
 });
 
-const getAboutEntry = entry => entry.sys.contentType.sys.id === 'about';
+const getAboutEntry = entry => {
+  return entry.sys.contentType.sys.id === "about";
+};
 
 const plugins = [
-  'gatsby-plugin-react-helmet',
+  "gatsby-plugin-react-helmet",
   {
-    resolve: 'gatsby-plugin-web-font-loader',
+    resolve: "gatsby-plugin-web-font-loader",
     options: {
       google: {
-        families: ['Cabin', 'Open Sans'],
-      },
-    },
+        families: ["Cabin", "Open Sans"]
+      }
+    }
   },
   {
-    resolve: 'gatsby-plugin-manifest',
-    options: manifestConfig,
+    resolve: "gatsby-plugin-manifest",
+    options: manifestConfig
   },
-  'gatsby-plugin-styled-components',
+  "gatsby-plugin-styled-components",
   {
-    resolve: 'gatsby-source-contentful',
+    resolve: "gatsby-source-contentful",
     options: {
       spaceId: SPACE_ID,
-      accessToken: ACCESS_TOKEN,
-    },
+      accessToken: ACCESS_TOKEN
+    }
   },
-  'gatsby-transformer-remark',
-  'gatsby-plugin-offline',
+  "gatsby-transformer-remark",
+  "gatsby-plugin-offline"
 ];
 
 module.exports = client.getEntries().then(entries => {
@@ -42,17 +44,17 @@ module.exports = client.getEntries().then(entries => {
 
   if (ANALYTICS_ID) {
     plugins.push({
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: ANALYTICS_ID,
-      },
+        trackingId: ANALYTICS_ID
+      }
     });
   }
 
   return {
     siteMetadata: {
-      isMediumUserDefined: !!mediumUser,
+      isMediumUserDefined: !!mediumUser
     },
-    plugins,
+    plugins
   };
 });

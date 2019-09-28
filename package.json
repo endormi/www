@@ -5,7 +5,7 @@
   "main": "gatsby-config.js",
   "scripts": {
     "build": "gatsby clean && gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "serve": "gatsby serve",
     "linter": "eslint ./src",
     "linter:fix": "eslint ./src --fix",
