@@ -47,10 +47,10 @@ pygmentscodefencesguesssyntax = true
     url = "https://github.com/endormi/"
 
 [[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
-    weight = 3
-    url = "https://twitter.com/_endormi/"
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 2
+    url = "https://linkedin.com/in/ernosalo/"
 
 [[params.social]]
     name = "Dev.to"
@@ -58,17 +58,33 @@ pygmentscodefencesguesssyntax = true
     weight = 3
     url = "https://dev.to/endormi/"
 
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 4
+    url = "https://twitter.com/_endormi/"
+
+[[menu.main]]
+    name = "Home"
+    weight = 1
+    url = "/"
+
 [[menu.main]]
     name = "About"
-    weight = 1
+    weight = 2
     url = "/about/"
 
 [[menu.main]]
     name = "Projects"
-    weight = 2
+    weight = 3
     url  = "/projects/"
 
 [[menu.main]]
+    name = "Blog"
+    weight = 4
+    url  = "https://endormi-blog.netlify.com/"
+
+[[menu.main]]
     name = "Contact"
-    weight = 3
+    weight = 5
     url  = "/contact/"
