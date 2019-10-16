@@ -1,8 +1,0 @@
-{
-  "extends": [
-    "endormi"
-  ],
-  "rules": {
-    "no-undef": 0
-  }
-}

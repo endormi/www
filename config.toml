@@ -1,0 +1,74 @@
+baseurl = "https://endormi.io"
+title = "Endormi"
+
+theme = "hugo-coder"
+
+languagecode = "en"
+
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+
+pygmentscodefences = true
+
+pygmentscodefencesguesssyntax = true
+
+[params]
+    author = "Erno Salo"
+
+    info = "Full Stack Developer"
+
+    description = "Endormi's portfolio"
+    
+    keywords = "developer,portfolio"
+    
+    avatarurl = "images/avi.png"
+
+    favicon_32 = "images/avi.png"
+
+    favicon_16 = "images/avi.png"
+
+    footercontent = "© 2019 Endormi"
+
+    hidecredits = true
+    hidecopyright = true
+
+    rtl = false
+    
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/endormi/"
+
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/_endormi/"
+
+[[params.social]]
+    name = "Dev.to"
+    icon = "fab fa-dev fa-2x"
+    weight = 3
+    url = "https://dev.to/endormi/"
+
+[[menu.main]]
+    name = "About"
+    weight = 1
+    url = "/about/"
+
+[[menu.main]]
+    name = "Projects"
+    weight = 2
+    url  = "/projects/"
+
+[[menu.main]]
+    name = "Contact"
+    weight = 3
+    url  = "/contact/"
