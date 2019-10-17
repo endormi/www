@@ -4,4 +4,6 @@
 
 My portfolio website showcasing some of the projects that I have created, contributed to and also my skills.
 
+[Wiki](https://github.com/endormi/dev-portfolio/wiki)
+
 [Website link](https://endormi.io/)

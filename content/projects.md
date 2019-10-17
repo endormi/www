@@ -35,6 +35,12 @@ Find and Fetch user information with GitHub's API using plain JavaScript, only b
 - [Source code](https://github.com/endormi/gitfinder)
 - [Website](https://endormi.github.io/GitFinder/)
 
+## Flask-Employee-API
+
+Simple API for Employees to keep track of job tasks with user authorization.
+
+- [Source code](https://github.com/endormi/flask-employee-api)
+
 ## Django-listAPI
 
 API that interacts with a database and manages serialization and deserialization using django rest framework.
