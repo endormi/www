@@ -80,11 +80,11 @@ pygmentscodefencesguesssyntax = true
     url  = "/projects/"
 
 [[menu.main]]
-    name = "Blog"
+    name = "Contact"
     weight = 4
-    url  = "https://endormi-blog.netlify.com/"
+    url  = "/contact/"
 
 [[menu.main]]
-    name = "Contact"
+    name = "Blog"
     weight = 5
-    url  = "/contact/"
+    url  = "https://endormi-blog.netlify.com/"
