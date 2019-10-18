@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap");
 *,
 *:after,
 *:before {
@@ -22,8 +21,10 @@ body {
 
 a {
   font-weight: 300;
-  color: #585858;
+  color: #1565c0;
   text-decoration: none; }
+  a:focus, a:hover {
+    text-decoration: underline; }
 
 p {
   margin: 2.0rem 0 2.0rem 0; }
@@ -34,10 +35,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Lato, Helvetica, sans-serif;
   font-weight: 700;
   color: #000;
-  margin: 3rem 0 3.2rem 0; }
+  margin: 6.4rem 0 3.2rem 0; }
 
 h1 {
   font-size: 3.2rem;
@@ -220,10 +221,10 @@ img {
 .avatar img {
   width: 20rem;
   height: auto;
-  border-radius: 15%; }
+  border-radius: 50%; }
   @media only screen and (max-width: 768px) {
     .avatar img {
-      width: 12rem; } }
+      width: 10rem; } }
 
 .list ul {
   margin: 3.2rem 0 3.2rem 0;
@@ -246,10 +247,10 @@ img {
     .list ul li .title {
       font-size: 1.8rem;
       color: #212121;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: Lato, Helvetica, sans-serif;
       font-weight: 700; }
       .list ul li .title:hover, .list ul li .title:focus {
-        color: #585858; }
+        color: #1565c0; }
 
 .centered {
   display: flex;
@@ -259,7 +260,7 @@ img {
     text-align: center; }
     .centered .about h1 {
       margin-top: 2.0rem;
-      margin-bottom: 2.5rem; }
+      margin-bottom: 0.5rem; }
     .centered .about h2 {
       margin-top: 1.0rem;
       margin-bottom: 0.5rem;
@@ -281,7 +282,7 @@ img {
           margin-right: 1.0rem;
           font-size: 1.6rem; }
           .centered .about ul li a:hover, .centered .about ul li a:focus {
-            color: #585858; }
+            color: #1565c0; }
           @media only screen and (max-width: 768px) {
             .centered .about ul li a {
               font-size: 1.4rem; } }
@@ -310,12 +311,12 @@ img {
   .navigation a, .navigation span {
     display: inline;
     font-size: 1.6rem;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Lato, Helvetica, sans-serif;
     font-weight: 700;
     line-height: 6.0rem;
     color: #212121; }
   .navigation a:hover, .navigation a:focus {
-    color: #585858; }
+    color: #1565c0; }
   .navigation .navigation-title {
     letter-spacing: 0.1rem;
     text-transform: uppercase; }
@@ -378,12 +379,12 @@ img {
         color: #212121;
         cursor: pointer; }
         .navigation .menu-button:hover, .navigation .menu-button:focus {
-          color: #585858; } }
+          color: #1565c0; } }
 
 .pagination {
   margin-top: 6.0rem;
   text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: Lato, Helvetica, sans-serif; }
   .pagination li {
     display: inline;
     text-align: center;
@@ -405,6 +406,6 @@ img {
   line-height: 2.0rem;
   margin-bottom: 1.0rem; }
   .footer a {
-    color: #585858; }
+    color: #1565c0; }
 
 /*# sourceMappingURL=coder.css.map */
