@@ -1,4 +1,5 @@
 baseurl = "https://endormi.io"
+
 title = "Endormi"
 
 theme = "hugo-coder"
@@ -36,10 +37,7 @@ pygmentscodefencesguesssyntax = true
     hidecopyright = true
 
     rtl = false
-    
-    custom_css = ["css/custom.css"]
 
-# Social links
 [[params.social]]
     name = "Github"
     icon = "fab fa-github fa-2x"
