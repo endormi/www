@@ -39,7 +39,7 @@ pygmentscodefencesguesssyntax = true
 
     rtl = false
 
-    custom_css = ["css/custom.css"]
+    custom_css = ["/css/custom.css"]
 
 [[params.social]]
     name = "Github"
