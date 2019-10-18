@@ -34,9 +34,12 @@ pygmentscodefencesguesssyntax = true
     footercontent = "© 2019 Endormi"
 
     hidecredits = true
+
     hidecopyright = true
 
     rtl = false
+
+    custom_css = ["css/custom.css"]
 
 [[params.social]]
     name = "Github"
