@@ -1,0 +1,91 @@
+baseurl = "https://endormi.io"
+
+title = "Endormi"
+
+theme = "hugo-coder"
+
+languagecode = "en"
+
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+
+pygmentscodefences = true
+
+pygmentscodefencesguesssyntax = true
+
+[params]
+    author = "Erno Salo"
+
+    info = "Full Stack Developer"
+
+    description = "Endormi's portfolio"
+    
+    keywords = "developer,portfolio"
+    
+    avatarurl = "images/avi.png"
+
+    favicon_32 = "images/avi.png"
+
+    favicon_16 = "images/avi.png"
+
+    footercontent = "© 2019 Endormi"
+
+    hidecredits = true
+
+    hidecopyright = true
+
+    rtl = false
+
+    custom_css = ["/css/custom.css"]
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/endormi/"
+
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 2
+    url = "https://linkedin.com/in/ernosalo/"
+
+[[params.social]]
+    name = "Dev.to"
+    icon = "fab fa-dev fa-2x"
+    weight = 3
+    url = "https://dev.to/endormi/"
+
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 4
+    url = "https://twitter.com/_endormi/"
+
+[[menu.main]]
+    name = "Home"
+    weight = 1
+    url = "/"
+
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
+
+[[menu.main]]
+    name = "Projects"
+    weight = 3
+    url  = "/projects/"
+
+[[menu.main]]
+    name = "Contact"
+    weight = 4
+    url  = "/contact/"
+
+[[menu.main]]
+    name = "Blog"
+    weight = 5
+    url  = "https://endormi-blog.netlify.com/"

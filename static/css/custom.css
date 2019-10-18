@@ -1,0 +1,86 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 3rem 0 3.2rem 0;
+}
+
+.centered .about h2 {
+    margin-top: 2.0rem;
+}
+
+.navigation {
+    height: 6.0rem;
+    width: 100%; }
+    .navigation a, .navigation span {
+      display: inline;
+      font-size: 1.6rem;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      line-height: 6.0rem;
+      color: #212121; }
+    .navigation a:hover, .navigation a:focus {
+      text-decoration: none;
+      color: #585858; }
+    
+      @media only screen and (max-width: 768px) {
+        .navigation .menu-button {
+          display: block;
+          font-size: 2.4rem;
+          font-weight: 400;
+          line-height: 6.0rem;
+          color: #212121;
+          cursor: pointer; }
+          .navigation .menu-button:hover, .navigation .menu-button:focus {
+            color: #585858; } }
+
+            .list ul {
+                margin: 3.2rem 0 3.2rem 0;
+                list-style: none;
+                padding: 0; }
+                .list ul li {
+                  font-size: 1.8rem; }
+                  @media only screen and (max-width: 768px) {
+                    .list ul li {
+                      margin: 1.6rem 0 1.6rem 0; } }
+                  .list ul li .date {
+                    display: inline-block;
+                    width: 20.0rem;
+                    text-align: right;
+                    margin-right: 3.0rem; }
+                    @media only screen and (max-width: 768px) {
+                      .list ul li .date {
+                        display: block;
+                        text-align: left; } }
+                  .list ul li .title {
+                    font-size: 1.8rem;
+                    color: #212121;
+                    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                    font-weight: 700; }
+                    .list ul li .title:hover, .list ul li .title:focus {
+                      color: #585858; }
+
+a {
+    font-weight: 300;
+    color: #585858;
+    text-decoration: none;
+  }
+
+  .avatar img {
+    width: 22rem;
+    height: auto;
+    border-radius: 15%; }
+    @media only screen and (max-width: 768px) {
+      .avatar img {
+        width: 16rem; } }
+
+  .centered .about ul li a {
+    color: #212121;
+    text-transform: uppercase;
+    margin-left: 1.0rem;
+    margin-right: 1.0rem;
+    font-size: 1.6rem; }
+    .centered .about ul li a:hover, .centered .about ul li a:focus {
+      color: #585858; }
