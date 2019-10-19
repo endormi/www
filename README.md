@@ -2,7 +2,7 @@
 
 > Built with [Hugo](https://gohugo.io/).
 
-My portfolio website showcasing some of the projects that I have created, contributed to and also my skills.
+My portfolio website.
 
 [Wiki](https://github.com/endormi/dev-portfolio/wiki)
 
