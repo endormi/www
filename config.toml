@@ -21,9 +21,9 @@ pygmentscodefencesguesssyntax = true
 
     info = "Full Stack Developer"
 
-    description = "Endormi's portfolio"
+    description = "Endormi's personal website"
     
-    keywords = "developer,portfolio,personal"
+    keywords = "developer,personal,website"
     
     avatarurl = "images/avi.png"
 

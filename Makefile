@@ -1,6 +1,6 @@
-local:
+run-local:
 	make -j 2 local-server local-browser
-.PHONY: local
+.PHONY: run-local
 
 local-server:
 	hugo server -D

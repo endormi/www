@@ -2,7 +2,13 @@
 
 > Built with [Hugo](https://gohugo.io/).
 
-My portfolio website.
+My website.
+
+Running locally:
+
+```sh
+make run-local
+```
 
 [Wiki](https://github.com/endormi/dev-portfolio/wiki)
 
