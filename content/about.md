@@ -11,20 +11,20 @@ I'm passionate about learning all kinds of new technologies whether it be front-
 
 ##### Front-End:
 
-- HTML5 / CSS3 / SCSS, JavaScript & Responsive design
+HTML5 / CSS3 / SCSS, JavaScript & Responsive design
 
 ##### Backend:
 
-- Python, Node.js & API's
+Python, Node.js & API's
 
 ##### Frameworks & Libraries:
 
-- Django, Bootstrap, JSF & jQuery
+Django, Bootstrap, JSF & jQuery
 
 ##### Databases:
 
-- PostgreSQL & SQLite
+PostgreSQL & SQLite
 
 ##### CI / CD:
 
-- Travis-CI & Netlify
+Travis-CI & Netlify
