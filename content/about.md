@@ -23,7 +23,7 @@ Django, Bootstrap, JSF & jQuery
 
 ##### Databases:
 
-PostgreSQL & SQLite
+MySQL & PostgreSQL
 
 ##### CI / CD:
 
