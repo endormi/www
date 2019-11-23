@@ -10,6 +10,6 @@ Running locally:
 make run-local
 ```
 
-[Wiki](https://github.com/endormi/dev-portfolio/wiki)
+[Wiki](https://github.com/endormi/dev-portfolio/wiki) - Read about my three different website design releases.
 
 [Website link](https://endormi.io/)
