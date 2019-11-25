@@ -90,4 +90,4 @@ pygmentscodefencesguesssyntax = true
 [[menu.main]]
     name = "Contact"
     weight = 3
-    url  = "/contact/"
+    url  = "mailto:contactendormi@gmail.com"
