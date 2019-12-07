@@ -2,8 +2,6 @@
 
 > Built with [Hugo](https://gohugo.io/).
 
-My website.
-
 Running locally:
 
 ```sh
