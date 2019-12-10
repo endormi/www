@@ -60,21 +60,15 @@ pygmentscodefencesguesssyntax = true
     url = "https://dev.to/endormi/"
 
 [[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
-    weight = 4
-    url = "https://twitter.com/_endormi/"
-
-[[params.social]]
     name = "NPM"
     icon = "fab fa-npm fa-2x"
-    weight = 5
+    weight = 4
     url = "https://www.npmjs.com/~endormi"
 
 [[params.social]]
     name = "Gmail"
     icon = "fas fa-envelope fa-2x"
-    weight = 6
+    weight = 5
     url = "mailto:contactendormi@gmail.com"
 
 [[menu.main]]
