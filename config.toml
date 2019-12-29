@@ -22,9 +22,9 @@ pygmentscodefencesguesssyntax = true
     info = "Full Stack Developer at Foredata Oy"
 
     description = "Endormi's personal website"
-    
+
     keywords = "developer,personal,website"
-    
+
     avatarurl = "images/avi.png"
 
     favicon_32 = "images/avi.png"
@@ -82,6 +82,11 @@ pygmentscodefencesguesssyntax = true
     url = "/about/"
 
 [[menu.main]]
-    name = "Contact"
+    name = "Open Source"
     weight = 3
+    url = "/open-source/"
+
+[[menu.main]]
+    name = "Contact"
+    weight = 4
     url  = "mailto:contactendormi@gmail.com"
