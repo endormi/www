@@ -87,6 +87,11 @@ pygmentscodefencesguesssyntax = true
     url = "/open-source/"
 
 [[menu.main]]
-    name = "Contact"
+    name = "Uses"
     weight = 4
+    url = "/uses/"
+
+[[menu.main]]
+    name = "Contact"
+    weight = 5
     url  = "mailto:contactendormi@gmail.com"
