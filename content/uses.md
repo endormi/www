@@ -56,5 +56,3 @@ I have two computers that I use, one is my work computer (laptop: Dell XPS 15) a
 #### Other
 
 I have two **Arduino** boards (**Uno** and **Mega2560**) that I use to create fun and useful projects.
-
-My desk is **BEKANT** from **Ikea**. It is adjustable, so it gives me the possibility to sit or stand which is essential.
