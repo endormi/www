@@ -23,7 +23,7 @@ Django, Bootstrap, JSF & jQuery
 
 ##### DevOps:
 
-- Docker & Git
+Docker & Git
 
 ##### Databases:
 
