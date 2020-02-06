@@ -6,11 +6,7 @@ Here are the software and hardware I use.
 
 I currently use **VSCode** with the theme I made, called **2077 theme**.
 
-Check out the [GitHub Repository](https://github.com/endormi/vscode-2077-theme).
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/39559256/71638885-b43dd100-2c74-11ea-82b3-854d8418c9f5.PNG" alt="JavaScript">
-</p>
+Check out the [GitHub Repository](https://github.com/endormi/vscode-2077-theme) and the [visual studio marketplace](https://marketplace.visualstudio.com/items?itemName=Endormi.2077-theme).
 
 ## Software
 
