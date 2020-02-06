@@ -65,12 +65,6 @@ pygmentscodefencesguesssyntax = true
     weight = 4
     url = "https://www.npmjs.com/~endormi"
 
-[[params.social]]
-    name = "Gmail"
-    icon = "fas fa-envelope fa-2x"
-    weight = 5
-    url = "mailto:contactendormi@gmail.com"
-
 [[menu.main]]
     name = "Home"
     weight = 1
