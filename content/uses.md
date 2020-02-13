@@ -2,16 +2,6 @@
 
 Here are the software and hardware I use.
 
-## Table of contents
-
-- [IDE](#ide)
-- [Software](#software)
-- [Computer and specs](#computer-and-specs)
-    - [Specs (for my work computer)](#specs-for-my-work-computer)
-    - [Specs (for my personal computer)](#specs-for-my-personal-computer)
-    - [Equipment](#equipment)
-- [Other](#other)
-
 ## IDE
 
 I currently use **VSCode** with the theme I made, called **2077 theme**.
