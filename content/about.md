@@ -21,10 +21,6 @@ Python, Node.js & API's
 
 Django, Bootstrap, JSF & jQuery
 
-##### DevOps:
-
-Docker & Git
-
 ##### Databases:
 
 MySQL, PostgreSQL & MongoDB
