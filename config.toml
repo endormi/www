@@ -31,8 +31,6 @@ pygmentscodefencesguesssyntax = true
 
     favicon_16 = "images/avi.png"
 
-    footercontent = "© 2020 Endormi"
-
     hidecredits = true
 
     hidecopyright = true
