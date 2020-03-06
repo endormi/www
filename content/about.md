@@ -19,7 +19,7 @@ Python, Node.js & API's
 
 ##### Frameworks & Libraries:
 
-Django, Bootstrap, JSF & jQuery
+Django, Vue, Bootstrap, JSF & jQuery
 
 ##### Databases:
 
