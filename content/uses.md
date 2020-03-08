@@ -52,5 +52,3 @@ I have two computers that I use, one is my work computer (laptop: Dell XPS 15) a
 #### Other
 
 I have three **Arduino** boards (**Uno**, **Mega2560** and **Micro**) that I use to create fun and useful projects.
-
-Check out my Arduino [projects](https://github.com/endormi/pomodoro-timer) (I currently have one which is a pomodoro timer using the Uno board).
