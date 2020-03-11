@@ -5,7 +5,7 @@ slug = "about"
 
 I am a **Full Stack Developer** specializing in Web Development based in Helsinki, Finland.
 
-I'm passionate about learning all kinds of new technologies and I'm constantly working on bettering my coding skills.
+I'm passionate about learning all kinds of new web technologies and I'm constantly working on bettering my coding skills.
 
 ### My skills
 
@@ -15,7 +15,7 @@ HTML5 / CSS3 / SCSS, JavaScript, Node.js & Responsive design
 
 ##### Backend:
 
-Python, Node.js & API's
+Python, Node.js, JavaScript, C# & API's
 
 ##### Frameworks & Libraries:
 
