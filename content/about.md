@@ -15,7 +15,7 @@ HTML5 / CSS3 / SCSS, JavaScript, Node.js & Responsive design
 
 ##### Backend:
 
-Python, Node.js, JavaScript, C# & API's
+Python, JavaScript, Node.js, C# & REST API's
 
 ##### Frameworks & Libraries:
 
