@@ -11,9 +11,9 @@ I'm passionate about learning all kinds of new web technologies and I'm constant
 
 ##### Front-End:
 
-HTML5 / CSS3 / SCSS, JavaScript, Node.js & Responsive design
+HTML5 / CSS3 / SCSS, JavaScript & Node.js
 
-##### Backend:
+##### Backend: 
 
 Python, JavaScript, Node.js, C# & REST API's
 
