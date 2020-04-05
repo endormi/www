@@ -13,7 +13,7 @@ I'm passionate about learning all kinds of new web technologies and I'm constant
 
 HTML5 / CSS3 / SCSS, JavaScript & Node.js
 
-##### Backend: 
+##### Backend:
 
 Python, JavaScript, Node.js, C# & REST API's
 
@@ -27,4 +27,4 @@ MySQL, PostgreSQL & MongoDB
 
 ##### CI / CD:
 
-Travis-CI & Netlify
+Travis-CI, Netlify & Docker
