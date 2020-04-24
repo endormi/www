@@ -85,14 +85,14 @@ pygmentscodefencesguesssyntax = true
     url = "/open-source/"
 
 [[menu.main]]
-    name = "Uses"
+    name = "Posts"
     weight = 4
-    url = "/uses/"
+    url = "https://dev.to/endormi"
 
 [[menu.main]]
-    name = "Posts"
+    name = "Uses"
     weight = 5
-    url = "https://dev.to/endormi"
+    url = "/uses/"
 
 [[menu.main]]
     name = "Contact"
