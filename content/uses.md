@@ -43,7 +43,7 @@ I have two computers that I use, one is my work computer (laptop: Dell XPS 15) a
 ##### Equipment:
 
 - **Case**: Fractal Design Define R4
-- **Monitor**: BenQ Zowie XL2411P 24"
+- **Monitors**: 2 BenQ Zowie XL2411P 24"
 - **Keyboard**: HyperX Alloy FPS Pro
 - **Headset**: Audio-Technica ATH-M50x
 - **Mouse**: Logitech G403
