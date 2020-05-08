@@ -2,6 +2,8 @@
 
 > Built with [Hugo](https://gohugo.io/).
 
+My developer portfolio.
+
 Running locally:
 
 ```sh
