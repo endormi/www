@@ -1,4 +1,7 @@
-# Open Source Software
++++
+title = "Open Source Software"
+slug = "open-source"
++++
 
 I maintain a couple of **open source projects** and contribute to many.
 
