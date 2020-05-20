@@ -7,7 +7,7 @@ My developer portfolio.
 Running locally:
 
 ```sh
-make run-local
+cd scripts && make run-local
 ```
 
 [Wiki](https://github.com/endormi/dev-portfolio/wiki) - Read about my three different website design releases.
