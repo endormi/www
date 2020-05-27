@@ -21,6 +21,10 @@ Python, JavaScript, Node.js, C# & API's
 
 Django, Vue, Bootstrap, JSF & jQuery
 
+##### Scripting languages:
+
+Bash, Batch, Lua & AutoHotkey
+
 ##### Databases:
 
 MySQL, PostgreSQL & MongoDB
