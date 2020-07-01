@@ -23,11 +23,11 @@ Django, Vue, Bootstrap, JSF & jQuery
 
 ##### Scripting languages:
 
-Bash, Batch, Lua & AutoHotkey
+Bash, Batch & AutoHotkey
 
 ##### Databases:
 
-MySQL, PostgreSQL & MongoDB
+MySQL, PostgreSQL, MongoDB & SQLite3
 
 ##### CI / CD:
 

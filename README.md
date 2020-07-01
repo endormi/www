@@ -2,7 +2,7 @@
 
 > Built with [Hugo](https://gohugo.io/).
 
-My developer portfolio.
+My minimalist developer portfolio.
 
 Running locally:
 

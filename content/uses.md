@@ -48,10 +48,10 @@ I have two computers that I use, one is my work computer (laptop: Dell XPS 15) a
 - **Case**: Fractal Design Define R4
 - **Monitors**: 2 BenQ Zowie XL2411P 24"
 - **Keyboard**: HyperX Alloy FPS Pro
-- **Headset**: Audio-Technica ATH-M50x
+- **Headset**: AKG K-240 Studio
 - **Mouse**: Logitech G403
 - **Mousepad**: HAVIT MP857
 
 #### Other
 
-I have three **Arduino** boards (**Uno**, **Mega2560** and **Micro**). that I use to create fun and useful projects.
+I have three **Arduino** boards (**Uno**, **Mega2560** and **Micro**), that I use to create fun and useful projects.
