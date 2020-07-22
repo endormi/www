@@ -19,7 +19,7 @@ pygmentscodefencesguesssyntax = true
 [params]
     author = "Erno Salo"
 
-    info = "Full Stack Developer at Foredata Oy"
+    info = "Software Developer at Foredata Oy"
 
     description = "Endormi's personal website"
 
@@ -70,54 +70,54 @@ pygmentscodefencesguesssyntax = true
 
 [languages]
     [languages.en]
-        languagename = "English"
+        languagename = "EN"
 
             [languages.en.menu]
 
-            [[languages.en.menu.main]]
-                name = "Home"
-                weight = 1
-                url = "/"
+                [[languages.en.menu.main]]
+                    name = "Home"
+                    weight = 1
+                    url = "/"
 
-            [[languages.en.menu.main]]
-                name = "About"
-                weight = 2
-                url = "/about/"
+                [[languages.en.menu.main]]
+                    name = "About"
+                    weight = 2
+                    url = "/about/"
 
-            [[languages.en.menu.main]]
-                name = "Open Source"
-                weight = 3
-                url = "/open-source/"
+                [[languages.en.menu.main]]
+                    name = "Open Source"
+                    weight = 3
+                    url = "/open-source/"
 
-            [[languages.en.menu.main]]
-                name = "Posts"
-                weight = 4
-                url = "https://dev.to/endormi"
+                [[languages.en.menu.main]]
+                    name = "Posts"
+                    weight = 4
+                    url = "https://dev.to/endormi"
 
-            [[languages.en.menu.main]]
-                name = "Uses"
-                weight = 5
-                url = "/uses/"
+                [[languages.en.menu.main]]
+                    name = "Uses"
+                    weight = 5
+                    url = "/uses/"
 
-            [[languages.en.menu.main]]
-                name = "Contact"
-                weight = 6
-                url  = "mailto:contactendormi@gmail.com"
+                [[languages.en.menu.main]]
+                    name = "Contact"
+                    weight = 6
+                    url  = "mailto:contactendormi@gmail.com"
 
     [languages.fr]
-        languagename = "Français"
+        languagename = "FR"
         title = "Erno Salo"
 
         [languages.fr.params]
             author = "Erno Salo"
-            info = "Développeur Full Stack à Foredata Oy"
+            info = "Développeur logiciel à Foredata Oy"
             description = "Le site personnel de Endormi"
             keywords = "développeur,personnel,site,portefeuille"
 
                 [languages.fr.menu]
 
                     [[languages.fr.menu.main]]
-                        name = "Home"
+                        name = "Accueil"
                         weight = 1
                         url = "/"
 
