@@ -3,7 +3,7 @@ title = "About"
 slug = "about"
 +++
 
-I am a **Full Stack Developer** based in Helsinki, Finland.
+I am a **Software Developer** based in Helsinki, Finland.
 
 I'm passionate about learning all kinds of new web technologies and I'm constantly working on bettering my coding skills.
 
