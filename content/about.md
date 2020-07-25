@@ -19,7 +19,7 @@ Python, JavaScript, Node.js, C# & API's
 
 ##### Frameworks & Libraries:
 
-Django, Vue, Bootstrap, JSF & jQuery
+Django, Flask, Vue, Bootstrap, JSF & jQuery
 
 ##### Scripting languages:
 
