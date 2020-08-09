@@ -124,7 +124,7 @@ pygmentscodefencesguesssyntax = true
                     [[languages.fr.menu.main]]
                         name = "À propos"
                         weight = 2
-                        url = "/about/"
+                        url = "/à-propos/"
 
                     [[languages.fr.menu.main]]
                         name = "Open Source"
@@ -139,7 +139,7 @@ pygmentscodefencesguesssyntax = true
                     [[languages.fr.menu.main]]
                         name = "Les usages"
                         weight = 5
-                        url = "/uses/"
+                        url = "/les-usages/"
 
                     [[languages.fr.menu.main]]
                         name = "Contact"

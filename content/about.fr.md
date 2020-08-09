@@ -1,6 +1,6 @@
 +++
 title = "À propos"
-slug = "about"
+slug = "à-propos"
 +++
 
 Je suis un **Développeur logiciel** basé à Helsinki, Finlande.
