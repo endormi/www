@@ -29,7 +29,7 @@ Bash, Batch & AutoHotkey
 
 MySQL, PostgreSQL, MongoDB & SQLite3
 
-##### Agile
+##### Agile:
 
 Kanban & Scrum
 
