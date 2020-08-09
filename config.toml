@@ -122,6 +122,26 @@ pygmentscodefencesguesssyntax = true
                         url = "/"
 
                     [[languages.fr.menu.main]]
-                        name = "Contact"
+                        name = "À propos"
                         weight = 2
+                        url = "/about/"
+
+                    [[languages.fr.menu.main]]
+                        name = "Open Source"
+                        weight = 3
+                        url = "/open-source/"
+
+                    [[languages.fr.menu.main]]
+                        name = "Des postes"
+                        weight = 4
+                        url = "https://dev.to/endormi"
+
+                    [[languages.fr.menu.main]]
+                        name = "Les usages"
+                        weight = 5
+                        url = "/uses/"
+
+                    [[languages.fr.menu.main]]
+                        name = "Contact"
+                        weight = 6
                         url  = "mailto:contactendormi@gmail.com"

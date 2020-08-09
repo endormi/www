@@ -3,12 +3,12 @@ title = "Open Source Software"
 slug = "open-source"
 +++
 
-I maintain a couple of **open source projects** and contribute to many.
+I maintain a couple of **open source projects** and contribute to many projects.
 
 Here are just a few of the projects that I maintain:
 
 - [autocorrect](https://github.com/endormi/autocorrect) - Auto correct for Windows.
-- [automation](https://github.com/endormi/automation) - Collection of my automated things written in Python.
+- [automation](https://github.com/endormi/automation) - Collection of my automated tasks written in Python.
 - [awesome-dj](https://github.com/endormi/awesome-dj) - List of reasons why django is awesome for web development & django bootstrap boilerplate.
 - [devisle/advanced-react-cli](https://github.com/devisle/advanced-react-cli) - An npm package which aims to provide a better way to install packages for your react application through an intuitive CLI.
 - [devisle/devisle](https://github.com/devisle/devisle) - Official Dev Isle website!

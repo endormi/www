@@ -7,7 +7,7 @@ Here are the software and hardware I use.
 
 ## IDE
 
-I mainly use **Atom** and occasionally **VSCode** with the theme I made, called **2077 theme**.
+I mainly use **Atom** and occasionally **VS Code** with the theme I made, called **2077 theme**.
 
 Check out the [GitHub Repository](https://github.com/endormi/vscode-2077-theme) and the [visual studio marketplace](https://marketplace.visualstudio.com/items?itemName=Endormi.2077-theme).
 
