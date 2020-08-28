@@ -23,7 +23,7 @@ Django, Vue, Bootstrap, JSF & jQuery
 
 ##### Langages de scripts :
 
-Bash, Batch & AutoHotkey
+Bash, Batch, Lua & AutoHotkey
 
 ##### Base de données :
 

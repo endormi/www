@@ -6,8 +6,16 @@ My minimalist developer portfolio.
 
 Running locally:
 
+> For Linux
+
 ```sh
 cd scripts && make run-local
+```
+
+> For Windows
+
+```bat
+cd scripts && run.bat
 ```
 
 [Wiki](https://github.com/endormi/dev-portfolio/wiki) - Read about my three different website design releases.

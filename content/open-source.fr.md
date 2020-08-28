@@ -12,6 +12,7 @@ Voici quelques projets que je maintiens :
 - [awesome-dj](https://github.com/endormi/awesome-dj) - Liste de raisons pourquoi Django est géniale pour le développement web & django bootstrap boilerplate.
 - [devisle/advanced-react-cli](https://github.com/devisle/advanced-react-cli) - Un package npm qui vise à fournir un meilleur moyen d'installer des packages pour votre application react via une CLI intuitive.
 - [devisle/devisle](https://github.com/devisle/devisle) - Le site Web officiel de Dev Isle !
+- [kbsc](https://github.com/endormi/kbsc) - Raccourcis clavier pour Windows.
 - [vscode-2077-theme](https://github.com/endormi/vscode-2077-theme) - Cyberpunk 2077 thème inspiré pour VS Code.
 
 Pour tous mes projets et contributions, visit mon [GitHub](https://github.com/endormi).

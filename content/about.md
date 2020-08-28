@@ -23,7 +23,7 @@ Django, Flask, Vue, Element, Bootstrap, JSF & jQuery
 
 ##### Scripting languages:
 
-Bash, Batch & AutoHotkey
+Bash, Batch, Lua & AutoHotkey
 
 ##### Databases:
 
