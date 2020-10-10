@@ -19,15 +19,15 @@ Python, JavaScript, Node.js, C# & API's
 
 ##### Frameworks & Libraries:
 
-Django, Flask, Vue, Element, Bootstrap, JSF & jQuery
+Django, Vue, Element UI, Bootstrap & JSF
 
 ##### Scripting languages:
 
-Bash, Batch, Lua & AutoHotkey
+Bash, Batch & AutoHotkey
 
 ##### Databases:
 
-MySQL, PostgreSQL, MongoDB & SQLite3
+MySQL, PostgreSQL & MongoDB
 
 ##### Agile:
 
@@ -35,4 +35,4 @@ Kanban & Scrum
 
 ##### CI / CD:
 
-Travis-CI, Netlify & Docker
+Travis-CI & Netlify
