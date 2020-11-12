@@ -11,11 +11,11 @@ I'm passionate about learning all kinds of new web technologies and I'm constant
 
 ##### Front-End:
 
-HTML5 / CSS3 / SCSS, JavaScript & Node.js
+HTML5 / CSS3 / SCSS & JavaScript
 
 ##### Backend:
 
-Python, JavaScript, Node.js, C# & API's
+Python, JavaScript, Node.js, Ruby, C# & API's
 
 ##### Frameworks & Libraries:
 
