@@ -2,14 +2,14 @@
 
 > Built with [Hugo](https://gohugo.io/).
 
-My minimalist developer portfolio.
+My minimalist portfolio.
 
 Running locally:
 
 > For Linux
 
 ```sh
-cd scripts && make run-local
+make run-local
 ```
 
 > For Windows
