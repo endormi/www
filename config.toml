@@ -106,7 +106,6 @@ pygmentscodefencesguesssyntax = true
 
     [languages.fr]
         languagename = "FR"
-        title = "Erno Salo"
 
         [languages.fr.params]
             author = "Erno Salo"
