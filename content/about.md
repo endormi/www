@@ -35,4 +35,4 @@ Kanban & Scrum
 
 ##### CI / CD:
 
-Travis-CI & Netlify
+Travis-CI, GitHub Workflow & Netlify
