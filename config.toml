@@ -67,6 +67,12 @@ pygmentscodefencesguesssyntax = true
     weight = 5
     url = "https://www.npmjs.com/~endormi"
 
+[[params.social]]
+    name = "Source Code"
+    icon = "fas fa-file-code fa-2x"
+    weight = 6
+    url = "https://github.com/endormi/www"
+
 
 [languages]
     [languages.en]
