@@ -15,7 +15,7 @@ HTML5 / CSS3 / SCSS & JavaScript
 
 ##### Backend:
 
-Python, JavaScript, Node.js, Ruby, C# & API's
+Python, Node.js, Ruby, C# & API's
 
 ##### Frameworks & Libraries:
 
@@ -31,7 +31,7 @@ MySQL, PostgreSQL & MongoDB
 
 ##### Agile:
 
-Kanban & Scrum
+Scrum
 
 ##### CI / CD:
 
