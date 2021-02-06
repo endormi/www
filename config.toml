@@ -1,40 +1,23 @@
 baseurl = "https://endormi.io/"
-
 title = "Endormi"
-
 theme = "hugo-coder"
-
 languagecode = "en"
-
 defaultcontentlanguage = "en"
-
 paginate = 20
-
 pygmentsstyle = "bw"
-
 pygmentscodefences = true
-
 pygmentscodefencesguesssyntax = true
 
 [params]
     author = "Erno Salo"
-
     info = "Software Developer at Foredata Oy"
-
     description = "Endormi's personal website"
-
     keywords = "developer,personal,website,portfolio"
-
     avatarurl = "images/avi.png"
-
     favicon_32 = "images/avi.png"
-
     favicon_16 = "images/avi.png"
-
     hidecredits = true
-
     rtl = false
-
     custom_css = ["/css/custom.css"]
 
 [[params.social]]
@@ -105,11 +88,6 @@ pygmentscodefencesguesssyntax = true
                     weight = 5
                     url = "/uses/"
 
-                [[languages.en.menu.main]]
-                    name = "Contact"
-                    weight = 6
-                    url  = "mailto:contactendormi@gmail.com"
-
     [languages.fr]
         languagename = "FR"
 
@@ -145,8 +123,3 @@ pygmentscodefencesguesssyntax = true
                         name = "Les usages"
                         weight = 5
                         url = "/les-usages/"
-
-                    [[languages.fr.menu.main]]
-                        name = "Contact"
-                        weight = 6
-                        url  = "mailto:contactendormi@gmail.com"
