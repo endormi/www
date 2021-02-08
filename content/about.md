@@ -9,21 +9,15 @@ I'm passionate about learning all kinds of new web technologies and I'm constant
 
 ### My skills
 
-##### Front-End:
+API Development
 
-HTML5 / CSS3 / SCSS & JavaScript
+##### Languages:
 
-##### Backend:
-
-Python, Node.js, Ruby, C# & API's
+Python, Ruby, JavaScript, Bash, C, Batch, C#, AutoHotkey & HTML5/CSS3/SCSS
 
 ##### Frameworks & Libraries:
 
 Django, Vue, Element UI, Bootstrap & JSF
-
-##### Scripting languages:
-
-Bash, Batch & AutoHotkey
 
 ##### Databases:
 
