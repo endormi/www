@@ -15,7 +15,7 @@ HTML5 / CSS3 / SCSS & JavaScript
 
 ##### Backend :
 
-Python, Node.js, Ruby & API's
+Python, Node.js, Ruby, C# & API's
 
 ##### Frameworks & Bibliothèques :
 
