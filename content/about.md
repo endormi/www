@@ -13,15 +13,15 @@ API Development
 
 ##### Languages:
 
-Python, Ruby, JavaScript, Bash, C, Batch, C#, AutoHotkey & HTML5/CSS3/SCSS
+Python, Ruby, JavaScript, Bash, C, Batch, AutoHotkey && HTML5/CSS3/SCSS
 
 ##### Frameworks & Libraries:
 
-Django, Vue, Element UI, Bootstrap & JSF
+Django, Vue, Element UI, Bootstrap && JSF
 
 ##### Databases:
 
-MySQL, PostgreSQL & MongoDB
+MySQL, PostgreSQL && MongoDB
 
 ##### Agile:
 
@@ -29,4 +29,4 @@ Scrum
 
 ##### CI / CD:
 
-Travis-CI, GitHub Workflow & Netlify
+Travis-CI, GitHub Workflow && Netlify
