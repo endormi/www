@@ -3,25 +3,25 @@ title = "Les usages"
 slug = "les-usages"
 +++
 
-Voici le logiciel et le matériel que j'utilise.
+Voici le logiciel && le matériel que j'utilise.
 
 ## IDE
 
-J'utilise principalement **Atom** et occasionnellement **VS Code** avec le thème que j'ai créé, qui s'appelle **Thème 2077**.
+J'utilise principalement **Atom** && occasionnellement **VS Code** avec le thème que j'ai créé, qui s'appelle **Thème 2077**.
 
-Visiter le [GitHub Repository](https://github.com/endormi/vscode-2077-theme) et le [visual studio marché](https://marketplace.visualstudio.com/items?itemName=Endormi.2077-theme).
+Visiter le [GitHub Repository](https://github.com/endormi/vscode-2077-theme) && le [visual studio marché](https://marketplace.visualstudio.com/items?itemName=Endormi.2077-theme).
 
 ## Logiciel
 
 - **Discord** : J'utilise **discord** pour parler avec d'autres développeurs.
-- **Git** : Git est le seul contrôle de version que j'utilise. J'ai automatisé certaines commandes git dans mon [automatisation repository](https://github.com/endormi/automation/blob/master/git-commands/commands.py) (clone, commit, branch, pull, merge, blame and stash).
+- **Git** : Git est le seul contrôle de version que j'utilise. J'ai automatisé certaines commandes git dans mon [automatisation repository](https://github.com/endormi/automation/blob/master/git-commands/commands.py) (clone, commit, branch, pull, merge, blame && stash).
 - **Slack** : J'utilise principalement **slack** pour communiquer avec mes collègues.
 - **VirtualBox** : J'exécute un **VM**.
 
-## Ordinateur et spécifications
+## Ordinateur && spécifications
 
 
-J'ai deux ordinateurs que j'utilise, l'un est mon ordinateur de travail (ordinateur portable: Dell XPS 15) et le second est mon ordinateur personnel (**PC personnalisé** sur mesure).
+J'ai deux ordinateurs que j'utilise, l'un est mon ordinateur de travail (ordinateur portable: Dell XPS 15) && le second est mon ordinateur personnel (**PC personnalisé** sur mesure).
 
 #### **Spécifications** (pour mon ordinateur de travail) :
 
@@ -55,4 +55,4 @@ J'ai deux ordinateurs que j'utilise, l'un est mon ordinateur de travail (ordinat
 
 #### Autre
 
-J'ai trois **Arduino** planches (**Uno**, **Mega2560** et **Micro**), que j'utilise pour créer des projets amusants et utiles.
+J'ai trois **Arduino** planches (**Uno**, **Mega2560** && **Micro**), que j'utilise pour créer des projets amusants && utiles.

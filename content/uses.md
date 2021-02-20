@@ -3,24 +3,24 @@ title = "Uses"
 slug = "uses"
 +++
 
-Here are the software and hardware I use.
+Here are the software && hardware I use.
 
 ## IDE
 
-I mainly use **Atom** and occasionally **VS Code** with the theme I made, called **2077 theme**.
+I mainly use **Atom** && occasionally **VS Code** with the theme I made, called **2077 theme**.
 
-Check out the [GitHub Repository](https://github.com/endormi/vscode-2077-theme) and the [visual studio marketplace](https://marketplace.visualstudio.com/items?itemName=Endormi.2077-theme).
+Check out the [GitHub Repository](https://github.com/endormi/vscode-2077-theme) && the [visual studio marketplace](https://marketplace.visualstudio.com/items?itemName=Endormi.2077-theme).
 
 ## Software
 
 - **Discord**: I use **discord** to talk with other dev's etc.
-- **Git**: Git is the only version control I use. I have automated some git commands in my [automation repository](https://github.com/endormi/automation/blob/master/git-commands/commands.py) (clone, commit, branch, pull, merge, blame and stash).
+- **Git**: Git is the only version control I use. I have automated some git commands in my [automation repository](https://github.com/endormi/automation/blob/master/git-commands/commands.py) (clone, commit, branch, pull, merge, blame && stash).
 - **Slack**: I mostly use **slack** to communicate with colleagues.
 - **VirtualBox**: I run a **VM**.
 
-## Computer and specs
+## Computer && specs
 
-I have two computers that I use, one is my work computer (laptop: Dell XPS 15) and the second one is my personal computer (**custom built** desktop).
+I have two computers that I use, one is my work computer (laptop: Dell XPS 15) && the second one is my personal computer (**custom built** desktop).
 
 #### **Specs** (for my work computer):
 
@@ -54,4 +54,4 @@ I have two computers that I use, one is my work computer (laptop: Dell XPS 15) a
 
 #### Other
 
-I have three **Arduino** boards (**Uno**, **Mega2560** and **Micro**), that I use to create fun and useful projects.
+I have three **Arduino** boards (**Uno**, **Mega2560** && **Micro**), that I use to create fun && useful projects.

@@ -9,7 +9,7 @@ Voici quelques projets que je maintiens :
 
 - [autocorrect](https://github.com/endormi/autocorrect) - Correction automatique pour Windows.
 - [automation](https://github.com/endormi/automation) - Collecte automatique de mes travaux écrites en Python.
-- [awesome-dj](https://github.com/endormi/awesome-dj) - Liste de raisons pourquoi Django est géniale pour le développement web & django bootstrap boilerplate.
+- [awesome-dj](https://github.com/endormi/awesome-dj) - Liste de raisons pourquoi Django est géniale pour le développement web && django bootstrap boilerplate.
 - [devisle/advanced-react-cli](https://github.com/devisle/advanced-react-cli) - Un package npm qui vise à fournir un meilleur moyen d'installer des packages pour votre application react via une CLI intuitive.
 - [devisle/devisle](https://github.com/devisle/devisle) - Le site Web officiel de Dev Isle !
 - [kbsc](https://github.com/endormi/kbsc) - Raccourcis clavier pour Windows.
