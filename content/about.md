@@ -9,7 +9,7 @@ I'm passionate about learning all kinds of new web technologies and I'm constant
 
 ### My skills
 
-API Development
+API Development && Docker
 
 ##### Languages:
 
