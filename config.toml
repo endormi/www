@@ -33,27 +33,21 @@ pygmentscodefencesguesssyntax = true
     url = "https://linkedin.com/in/ernosalo/"
 
 [[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
-    weight = 3
-    url = "https://twitter.com/_endormi/"
-
-[[params.social]]
     name = "Dev.to"
     icon = "fab fa-dev fa-2x"
-    weight = 4
+    weight = 3
     url = "https://dev.to/endormi/"
 
 [[params.social]]
     name = "NPM"
     icon = "fab fa-npm fa-2x"
-    weight = 5
+    weight = 4
     url = "https://www.npmjs.com/~endormi"
 
 [[params.social]]
     name = "Source Code"
     icon = "fas fa-file-code fa-2x"
-    weight = 6
+    weight = 5
     url = "https://github.com/endormi/www"
 
 
