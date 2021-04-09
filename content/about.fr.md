@@ -13,7 +13,7 @@ Développement API && Docker
 
 ##### Langages :
 
-Python, Ruby, JavaScript, Bash, C, Batch, AutoHotkey && HTML5/CSS3/SCSS
+Python, Ruby, JavaScript, Bash, C, Lua, Batch, AutoHotkey && HTML5/CSS3/SCSS
 
 ##### Frameworks & Bibliothèques :
 
