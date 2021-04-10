@@ -3,7 +3,7 @@ title = "À propos"
 slug = "à-propos"
 +++
 
-Je suis un **Développeur logiciel** basé à Helsinki, Finlande.
+Je suis un **Développeur logiciel** basé à Finlande.
 
 Je suis passionné d'apprendre les nouvelles technologies web différentes et aussi je travaille constamment à améliorer mes compétences en codage.
 
