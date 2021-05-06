@@ -25,7 +25,7 @@ MySQL, PostgreSQL && MongoDB
 
 ##### Agile :
 
-Scrum
+Scrum && Kanban
 
 ##### CI / CD :
 
