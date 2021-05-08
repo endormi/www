@@ -31,6 +31,6 @@ Scrum && Kanban
 
 Travis-CI, GitHub Workflow && Netlify
 
-##### Development
+##### Development:
 
 Git && GitHub
