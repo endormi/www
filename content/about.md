@@ -33,4 +33,4 @@ Travis-CI, GitHub Workflow && Netlify
 
 ##### Development:
 
-Git && GitHub
+Git, GitHub, CodeCommit, IDE && Emacs
