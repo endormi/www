@@ -13,7 +13,7 @@ Voici quelques projets que je maintiens :
 - [devisle/advanced-react-cli](https://github.com/devisle/advanced-react-cli) - Un package npm qui vise à fournir un meilleur moyen d'installer des packages pour votre application react via une CLI intuitive.
 - [devisle/devisle](https://github.com/devisle/devisle) - Le site Web officiel de Dev Isle !
 - [kbsc](https://github.com/endormi/kbsc) - Raccourcis clavier pour Windows.
-- [tilux](https://github.com/endormi/tilux) - CLI pour Linux.
+- [tilux](https://github.com/endormi/tilux) - CLI outil pour Linux.
 - [vscode-2077-theme](https://github.com/endormi/vscode-2077-theme) - Cyberpunk 2077 thème inspiré pour VS Code.
 
 Pour tous mes projets et contributions, visit mon [GitHub](https://github.com/endormi).
