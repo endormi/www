@@ -16,40 +16,41 @@ pygmentscodefencesguesssyntax = true
     avatarurl = "images/avi.png"
     favicon_32 = "images/avi.png"
     favicon_16 = "images/avi.png"
-    hidecredits = true
+    hideCredits = true
+    colorScheme = "auto"
+    hideColorSchemeToggle = false
     rtl = false
     custom_css = ["/css/custom.css"]
 
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github fa-2x"
+    icon = "fa fa-github fa-2x"
     weight = 1
     url = "https://github.com/endormi/"
 
 [[params.social]]
     name = "LinkedIn"
-    icon = "fab fa-linkedin fa-2x"
+    icon = "fa fa-linkedin fa-2x"
     weight = 2
     url = "https://linkedin.com/in/ernosalo/"
 
 [[params.social]]
     name = "Dev.to"
-    icon = "fab fa-dev fa-2x"
+    icon = "fa fa-dev-to fa-2x"
     weight = 3
     url = "https://dev.to/endormi/"
 
 [[params.social]]
-    name = "NPM"
-    icon = "fab fa-npm fa-2x"
-    weight = 4
-    url = "https://www.npmjs.com/~endormi"
-
-[[params.social]]
     name = "Source Code"
-    icon = "fas fa-file-code fa-2x"
-    weight = 5
+    icon = "fa fa-file-code-o fa-2x"
+    weight = 4
     url = "https://github.com/endormi/www"
 
+[[params.social]]
+    name = "Discord"
+    icon = "fa fa-discord fa-2x"
+    weight = 5
+    url = "https://discord.gg/MSTQKRE"
 
 [languages]
     [languages.en]
