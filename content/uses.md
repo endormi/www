@@ -38,7 +38,7 @@ I have two computers that I use, one is my work computer (laptop: [Dell XPS 15](
 
 ##### Equipment:
 
-- **Case**: Fractal Design Define R4
+- **Case**: Fractal Design Micro ATX
 - **Monitors**: [2 BenQ Zowie XL2411P 24"](https://www.amazon.com/gp/product/B01H5KKQTM/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01H5KKQTM&linkCode=as2&tag=endormiwebsit-20&linkId=c8aa31e92626e52706d416c23c8e0cd5)
 - **Keyboard**: [HyperX Alloy FPS Pro](https://www.amazon.com/gp/product/B074F5L8GQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B074F5L8GQ&linkCode=as2&tag=endormiwebsit-20&linkId=ea681cf4c822dc29bd33ce0b299d985c)
 - **Headset**: AKG K-240 Studio
