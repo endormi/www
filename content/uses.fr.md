@@ -55,4 +55,4 @@ J'ai deux ordinateurs que j'utilise, l'un est mon ordinateur de travail (ordinat
 
 #### Autre
 
-J'ai trois **Arduino** planches (**Uno**, **Mega2560** && **Micro**), que j'utilise pour créer des projets amusants && utiles.
+J'ai trois **Arduino** planches (**<a target="_blank" href="https://www.amazon.com/gp/product/B008GRTSV6/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B008GRTSV6&linkCode=as2&tag=endormiwebsit-20&linkId=dba2acd7658f4c29efee1a6c78e90763">Uno</a>**, **<a target="_blank" href="https://www.amazon.com/gp/product/B0046AMGW0/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0046AMGW0&linkCode=as2&tag=endormiwebsit-20&linkId=37d4ddb38529ad489163d7a01bd68d3f">Mega2560</a>** && **<a target="_blank" href="https://www.amazon.com/gp/product/B00AFY2S56/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00AFY2S56&linkCode=as2&tag=endormiwebsit-20&linkId=b204cacfdf3ccb8d3f1f44c001842394">Micro</a>**), que j'utilise pour créer des projets amusants && utiles.
