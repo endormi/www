@@ -27,10 +27,10 @@ I have two computers that I use, one is my work computer (laptop: [Dell XPS 15](
 #### **Specs** (for my personal computer):
 
 - **OS**: Windows 10, but I have a **VM** running **Gnome** which I use daily (possibly switching to **Gnome** permanently soon).
-- **Motherboard**: Asus PRIME B360-PLUS Intel B360 LGA1151
-- **CPU**: <a target="_blank" href="https://www.amazon.com/gp/product/B07MGZ9FJZ/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07MGZ9FJZ&linkCode=as2&tag=endormiwebsit-20&linkId=7b7133674f0935c689f21bda2c25c97a">Intel Core i5-9400F 2,9 GHz LGA1151</a>
+- **Motherboard**: [Asus PRIME B360-A Intel B360 LGA1151](https://www.amazon.com/gp/product/B07BP6RGG6/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07BP6RGG6&linkCode=as2&tag=endormiwebsit-20&linkId=9f00c58aa62d25dd554ee99759f3f990)
+- **CPU**: [Intel Core i5-9400F 2,9 GHz LGA1151](https://www.amazon.com/gp/product/B07MGZ9FJZ/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07MGZ9FJZ&linkCode=as2&tag=endormiwebsit-20&linkId=7b7133674f0935c689f21bda2c25c97a)
 - **GPU**: MSI GeForce RTX 2060 VENTUS 6G OC 6GB GDDR6
-- **RAM**: Kingston HyperX FURY DDR4 2666 MHz CL15 8 Gt
+- **RAM**: [Kingston HyperX FURY DDR4 2666 MHz CL15 8 Gt](https://www.amazon.com/gp/product/B07WD5VKTS/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07WD5VKTS&linkCode=as2&tag=endormiwebsit-20&linkId=99b506c32c6cb5e77df9fc46d388cbde)
 - **SSD**: [Kingston A400 240 Gt SATA3 2,5](https://www.amazon.com/gp/product/B01N5IB20Q/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01N5IB20Q&linkCode=as2&tag=endormiwebsit-20&linkId=7d1fa29c6596a82c6df7841aceccbb0c)
 - **Hard Drive**: [Seagate Barracuda 1 TB 64 MB 7200 RPM 3.5" SATA III](https://www.amazon.com/gp/product/B01LNJBA2I/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01LNJBA2I&linkCode=as2&tag=endormiwebsit-20&linkId=9049cd01267cd6083caf11ec1ad6fc19)
 - **Cooler**: [Cooler Master Hyper 212 Black Edition](https://www.amazon.com/gp/product/B07H25DYM3/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07H25DYM3&linkCode=as2&tag=endormiwebsit-20&linkId=247d7c09cad188b9abf2301d0324d9a1)
@@ -38,10 +38,10 @@ I have two computers that I use, one is my work computer (laptop: [Dell XPS 15](
 
 ##### Equipment:
 
-- **Case**: Fractal Design Micro ATX
+- **Case**: [Fractal Design Micro ATX](https://www.amazon.com/gp/product/B01N05CPU8/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01N05CPU8&linkCode=as2&tag=endormiwebsit-20&linkId=a4b5119a529d16dcc4febed16124a210)
 - **Monitors**: [2 BenQ Zowie XL2411P 24"](https://www.amazon.com/gp/product/B01H5KKQTM/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01H5KKQTM&linkCode=as2&tag=endormiwebsit-20&linkId=c8aa31e92626e52706d416c23c8e0cd5)
 - **Keyboard**: [HyperX Alloy FPS Pro](https://www.amazon.com/gp/product/B074F5L8GQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B074F5L8GQ&linkCode=as2&tag=endormiwebsit-20&linkId=ea681cf4c822dc29bd33ce0b299d985c)
-- **Headset**: AKG K-240 Studio
+- **Headset**: [AKG K-240 Studio](https://www.amazon.com/gp/product/B0001ARCFA/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0001ARCFA&linkCode=as2&tag=endormiwebsit-20&linkId=f91e215c58de43ca935765271710b917)
 - **Mouse**: [Logitech G403](https://www.amazon.com/gp/product/B07L4LRCXN/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07L4LRCXN&linkCode=as2&tag=endormiwebsit-20&linkId=75f68924bfbc5e439b3fd0ae617dac4c)
 - **Mousepad**: [HAVIT MP857](https://www.amazon.com/gp/product/B07GJJV2TY/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07GJJV2TY&linkCode=as2&tag=endormiwebsit-20&linkId=2824799c9858d9873cc3ffc2a60c364c)
 
