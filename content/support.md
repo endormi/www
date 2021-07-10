@@ -3,7 +3,11 @@ title = "Support"
 slug = "support"
 +++
 
+WIP
+
 You can support me on these platforms.
+
+Thank you for taking interest in supporting my work!
 
 - GitHub (TODO)
 - [Buymeacoffee](https://www.buymeacoffee.com/endormi)
