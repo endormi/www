@@ -11,7 +11,7 @@ pygmentscodefencesguesssyntax = true
 [params]
     author = "Erno Salo"
     info = "Software Developer at Foredata Oy"
-    description = "Endormi's personal website"
+    description = "Personal website for Endormi"
     keywords = "developer,personal,website,portfolio"
     avatarurl = "images/avi.png"
     favicon_32 = "images/avi.png"
@@ -22,15 +22,15 @@ pygmentscodefencesguesssyntax = true
     rtl = false
     custom_css = ["/css/custom.css"]
 
-[params.csp]
-    childsrc = ["'self'"]
-    fontsrc = ["'self'", "https://fonts.gstatic.com"]
-    formaction = ["'self'"]
-    framesrc = ["'self'"]
-    imgsrc = ["'self'"]
-    objectsrc = ["'none'"]
-    stylesrc = ["'self'", "'unsafe-inline'"]
-    scriptsrc = ["'self'", "'unsafe-inline'"]
+# [params.csp]
+#     childsrc = ["'self'"]
+#     fontsrc = ["'self'", "https://fonts.gstatic.com"]
+#     formaction = ["'self'"]
+#     framesrc = ["'self'"]
+#     imgsrc = ["'self'"]
+#     objectsrc = ["'none'"]
+#     stylesrc = ["'self'", "'unsafe-inline'"]
+#     scriptsrc = ["'self'", "'unsafe-inline'"]
 
 [[params.social]]
     name = "Github"
