@@ -84,9 +84,9 @@ pygmentscodefencesguesssyntax = true
                     url = "/uses/"
 
                 [[languages.en.menu.main]]
-                    name = "Support"
+                    name = "Thanks"
                     weight = 6
-                    url = "/support/"
+                    url = "/thanks/"
 
     [languages.fr]
         languagename = "FR"
@@ -125,6 +125,6 @@ pygmentscodefencesguesssyntax = true
                         url = "/les-usages/"
 
                     [[languages.fr.menu.main]]
-                        name = "Support"
+                        name = "Merci"
                         weight = 6
-                        url = "/support/"
+                        url = "/merci/"

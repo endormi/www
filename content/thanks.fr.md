@@ -1,13 +1,13 @@
 +++
-title = "Support"
-slug = "support"
+title = "Merci"
+slug = "merci"
 +++
 
 WIP
 
-You can support me on these platforms.
+Vous pouvez me soutenir sur ces plateformes.
 
-Thank you for taking interest in supporting my work!
+Merci de vous intéresser à soutenir mon travail !
 
 - [GitHub](https://github.com/sponsors/endormi)
 - [Buymeacoffee](https://www.buymeacoffee.com/endormi)
