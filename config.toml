@@ -22,6 +22,16 @@ pygmentscodefencesguesssyntax = true
     rtl = false
     custom_css = ["/css/custom.css"]
 
+[params.csp]
+    childsrc = ["'self'"]
+    fontsrc = ["'self'", "https://fonts.gstatic.com"]
+    formaction = ["'self'"]
+    framesrc = ["'self'"]
+    imgsrc = ["'self'"]
+    objectsrc = ["'none'"]
+    stylesrc = ["'self'", "'unsafe-inline'"]
+    scriptsrc = ["'self'", "'unsafe-inline'"]
+
 [[params.social]]
     name = "Github"
     icon = "fa fa-github fa-2x"
