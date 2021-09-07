@@ -5,12 +5,6 @@ slug = "les-usages"
 
 Voici le logiciel && le matériel que j'utilise.
 
-## IDE
-
-J'utilise principalement **Atom** && occasionnellement **VS Code** avec le thème que j'ai créé, qui s'appelle **Thème 2077**.
-
-Visiter le [GitHub Repository](https://github.com/endormi/vscode-2077-theme) && le [visual studio marché](https://marketplace.visualstudio.com/items?itemName=Endormi.2077-theme).
-
 ## Logiciel
 
 - **Discord** : J'utilise **discord** pour parler avec d'autres développeurs.

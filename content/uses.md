@@ -5,12 +5,6 @@ slug = "uses"
 
 Here are the software && hardware I use.
 
-## IDE
-
-I mainly use **Atom** && occasionally **VS Code** with the theme I made, called **2077 theme**.
-
-Check out the [GitHub Repository](https://github.com/endormi/vscode-2077-theme) && the [visual studio marketplace](https://marketplace.visualstudio.com/items?itemName=Endormi.2077-theme).
-
 ## Software
 
 - **Discord**: I use **discord** to talk with other dev's etc.
