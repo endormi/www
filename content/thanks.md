@@ -3,8 +3,6 @@ title = "Thanks"
 slug = "thanks"
 +++
 
-WIP
-
 You can support me on these platforms.
 
 Thank you for taking interest in supporting my work!

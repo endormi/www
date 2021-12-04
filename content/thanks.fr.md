@@ -3,8 +3,6 @@ title = "Merci"
 slug = "merci"
 +++
 
-WIP
-
 Vous pouvez me soutenir sur ces plateformes.
 
 Merci de vous intéresser à soutenir mon travail !
