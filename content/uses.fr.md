@@ -14,7 +14,6 @@ Voici le logiciel && le matériel que j'utilise.
 
 ## Ordinateur && spécifications
 
-
 J'ai deux ordinateurs que j'utilise, l'un est mon ordinateur de travail (ordinateur portable: Dell XPS 15) && le second est mon ordinateur personnel (**PC personnalisé** sur mesure).
 
 ### **Spécifications** (pour mon ordinateur personnel) :
