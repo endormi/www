@@ -7,30 +7,30 @@ Je suis un **Développeur logiciel** basé à Finlande.
 
 Je suis passionné d'apprendre les nouvelles technologies web différentes et aussi je travaille constamment à améliorer mes compétences en codage.
 
-### Mes compétences
+## Mes compétences
 
 Développement API && Docker
 
-##### Langages :
+### Langages :
 
 Python, Ruby, JavaScript, Bash, C, Lua, Batch, AutoHotkey && HTML5/CSS3/SCSS
 
-##### Frameworks & Bibliothèques :
+### Frameworks & Bibliothèques :
 
 Django, Vue, Element UI, Bootstrap && JSF
 
-##### Base de données :
+### Base de données :
 
 MySQL, PostgreSQL && MongoDB
 
-##### Agile :
+### Agile :
 
 Scrum && Kanban
 
-##### CI / CD :
+### CI / CD :
 
 Travis-CI, GitHub Actions && Netlify
 
-##### Développement :
+### Développement :
 
 Git, GitHub, CodeCommit, IDE && Emacs

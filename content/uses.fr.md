@@ -17,7 +17,7 @@ Voici le logiciel && le matériel que j'utilise.
 
 J'ai deux ordinateurs que j'utilise, l'un est mon ordinateur de travail (ordinateur portable: Dell XPS 15) && le second est mon ordinateur personnel (**PC personnalisé** sur mesure).
 
-#### **Spécifications** (pour mon ordinateur personnel) :
+### **Spécifications** (pour mon ordinateur personnel) :
 
 - **OS** : Windows 10, mais j'ai une **VM** exécutant **Gnome** que j'utilise quotidiennement (peut-être changer définitivement bientôt pour **Gnome**).
 - **Carte mère** : Asus PRIME B360-A Intel B360 LGA1151
@@ -29,7 +29,7 @@ J'ai deux ordinateurs que j'utilise, l'un est mon ordinateur de travail (ordinat
 - **Refroidisseur d'ordinateur** : Cooler Master Hyper 212 Black Edition
 - **Source d'énergie** : Corsair CX650M 650 W
 
-##### Équipements :
+### Équipements :
 
 - **Boite** : Fractal Design Micro ATX
 - **Moniteurs** : 2 BenQ Zowie XL2411P 24 "
@@ -38,6 +38,6 @@ J'ai deux ordinateurs que j'utilise, l'un est mon ordinateur de travail (ordinat
 - **Souris** : Logitech G403
 - **Tapis de souris** : HAVIT MP857
 
-#### Autre
+## Autre
 
 J'ai trois **Arduino** planches (**Uno**, **Mega2560** && **Micro**), que j'utilise pour créer des projets amusants && utiles.

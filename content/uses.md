@@ -16,7 +16,7 @@ Here are the software && hardware I use.
 
 I have two computers that I use, one is my work computer (laptop: Dell XPS 15) && the second one is my personal computer (**custom built** desktop).
 
-#### **Specs** (for my personal computer):
+### **Specs** (for my personal computer):
 
 - **OS**: Windows 10, but I have a **VM** running **Gnome** which I use daily (possibly switching to **Gnome** permanently soon).
 - **Motherboard**: Asus PRIME B360-A Intel B360 LGA1151
@@ -28,7 +28,7 @@ I have two computers that I use, one is my work computer (laptop: Dell XPS 15) &
 - **Cooler**: Cooler Master Hyper 212 Black Edition
 - **Power Source**: Corsair CX650M 650 W
 
-##### Equipment:
+### Equipment:
 
 - **Case**: Fractal Design Micro ATX
 - **Monitors**: 2 BenQ Zowie XL2411P 24"
@@ -37,6 +37,6 @@ I have two computers that I use, one is my work computer (laptop: Dell XPS 15) &
 - **Mouse**: Logitech G403
 - **Mousepad**: HAVIT MP857
 
-#### Other
+## Other
 
 I have three **Arduino** boards (**Uno**, **Mega2560** && **Micro**), that I use to create fun && useful projects.
