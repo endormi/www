@@ -6,19 +6,19 @@ My minimalist website.
 
 ## Running locally
 
-Install
+Clone repository:
 
 ```
 git clone https://github.com/endormi/www.git
 ```
 
-Get submodule `hugo-coder`
+Get submodule `hugo-coder`:
 
 ```
 git submodule init
 ```
 
-Run
+Run website:
 
 > For Linux
 
