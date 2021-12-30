@@ -4,17 +4,31 @@
 
 My minimalist website.
 
-Running locally:
+## Running locally
+
+Install
+
+```
+git clone https://github.com/endormi/www.git
+```
+
+Get submodule `hugo-coder`
+
+```
+git submodule init
+```
+
+Run
 
 > For Linux
 
-```sh
+```
 make run-local
 ```
 
 > For Windows
 
-```bat
+```
 cd scripts && run.bat
 ```
 
