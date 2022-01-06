@@ -5,7 +5,7 @@ slug = "about"
 
 I am a **Software Developer** based in Finland.
 
-I'm passionate about learning all kinds of new web technologies and I'm constantly working on bettering my coding skills.
+I'm passionate about learning all kinds of new technologies.
 
 ## My skills
 
