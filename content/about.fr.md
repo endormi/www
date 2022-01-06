@@ -19,6 +19,14 @@ Python, Ruby, JavaScript, Bash, C, Lua, Batch, AutoHotkey && HTML5/CSS3/SCSS
 
 Django, Vue, Element UI, Bootstrap && JSF
 
+### DevOps :
+
+Docker
+
+#### CI / CD :
+
+Travis-CI, GitHub Actions && Netlify
+
 ### Base de données :
 
 MySQL, PostgreSQL && MongoDB
@@ -26,10 +34,6 @@ MySQL, PostgreSQL && MongoDB
 ### Agile :
 
 Scrum && Kanban
-
-### CI / CD :
-
-Travis-CI, GitHub Actions && Netlify
 
 ### Développement :
 
