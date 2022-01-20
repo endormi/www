@@ -21,7 +21,11 @@ Django, Vue, Element UI, Bootstrap && JSF
 
 ### DevOps :
 
-Docker
+Docker, AWS (IAM, VPC, EC2, S3)
+
+#### Outils Cloud :
+
+Terraform
 
 #### CI / CD :
 
