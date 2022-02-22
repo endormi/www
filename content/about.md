@@ -29,7 +29,7 @@ Terraform
 
 #### CI / CD:
 
-Travis-CI, GitHub Actions && Netlify
+Travis-CI && GitHub Actions
 
 ### Databases:
 
