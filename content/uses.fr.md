@@ -33,7 +33,7 @@ J'ai deux ordinateurs que j'utilise, l'un est mon ordinateur de travail (ordinat
 - **Boite** : Fractal Design Micro ATX
 - **Moniteurs** : 2 BenQ Zowie XL2411P 24 "
 - **Clavier** : HyperX Alloy FPS Pro
-- **Casque** : AKG K-240 Studio && JBL Quantum 400
+- **Casque** : JBL Quantum 400
 - **Souris** : Logitech G403
 - **Tapis de souris** : HAVIT MP857
 

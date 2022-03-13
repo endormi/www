@@ -33,7 +33,7 @@ I have two computers that I use, one is my work computer (laptop: Dell XPS 15) &
 - **Case**: Fractal Design Micro ATX
 - **Monitors**: 2 BenQ Zowie XL2411P 24"
 - **Keyboard**: HyperX Alloy FPS Pro
-- **Headset**: AKG K-240 Studio && JBL Quantum 400
+- **Headset**: JBL Quantum 400
 - **Mouse**: Logitech G403
 - **Mousepad**: HAVIT MP857
 
