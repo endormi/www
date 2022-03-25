@@ -1,0 +1,19 @@
+name: Hugo
+
+on:
+  push:
+    branches: 
+      - master
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install Hugo
+      run: |
+        curl -LO https://github.com/gohugoio/hugo/releases/download/v0.83.1/hugo_extended_0.83.1_Linux-64bit.deb
+        sudo dpkg -i hugo_extended_0.83.1_Linux-64bit.deb
+    - name: Minify Hugo
+      run: hugo --gc --minify
