@@ -17,7 +17,7 @@ Python, Ruby, JavaScript, Bash, C, Lua, Batch, AutoHotkey && HTML5/CSS3/SCSS
 
 ### Frameworks & Libraries:
 
-Django, Vue, Element UI, Bootstrap && JSF
+Django, Vue, Nuxt, Element UI, Bootstrap && JSF
 
 ### DevOps:
 
