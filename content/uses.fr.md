@@ -8,7 +8,7 @@ Voici le logiciel && le matériel que j'utilise.
 ## Logiciel
 
 - **Discord** : J'utilise **discord** pour parler avec d'autres développeurs.
-- **Git** : Git est le seul contrôle de version que j'utilise. J'ai automatisé certaines commandes git dans mon [automatisation repository](https://github.com/endormi/automation/blob/master/git-commands/commands.py) (clone, commit, branch, pull, merge, blame && stash).
+- **Git** : Git est le seul contrôle de version que j'utilise. J'ai automatisé certaines commandes git dans mon [automatisation repository](https://github.com/endormi/automation/blob/master/git-commands/commands.py) (clone, commit, branch, pull, merge && blame).
 - **Slack** : J'utilise principalement **slack** pour communiquer avec mes collègues.
 - **VirtualBox** : J'exécute un **VM**.
 
