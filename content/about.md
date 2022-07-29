@@ -6,39 +6,3 @@ slug = "about"
 I am a **Software Developer** based in Finland.
 
 I'm passionate about learning all kinds of new technologies.
-
-## My skills
-
-API Development
-
-### Languages:
-
-Python, Ruby, JavaScript, Bash, C, Lua, Batch, AutoHotkey && HTML5/CSS3/SCSS
-
-### Frameworks & Libraries:
-
-Django, Vue, Nuxt, Element UI, Bootstrap && JSF
-
-### DevOps:
-
-Docker, AWS (IAM, VPC, EC2, S3), IaC
-
-#### Cloud tools:
-
-Terraform
-
-#### CI / CD:
-
-Travis-CI && GitHub Actions
-
-### Databases:
-
-MySQL, PostgreSQL && MongoDB
-
-### Agile:
-
-Scrum && Kanban
-
-### Development:
-
-Git, GitHub, CodeCommit, IDE && Emacs
