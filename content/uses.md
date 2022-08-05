@@ -10,7 +10,6 @@ Here are the software && hardware I use.
 - **Discord**: I use **discord** to talk with other dev's etc.
 - **Git**: Git is the only version control I use. I have automated some git commands in my [automation repository](https://github.com/endormi/automation/blob/master/git-commands/commands.py) (clone, commit, branch, pull, merge && blame).
 - **Slack**: I mostly use **slack** to communicate with colleagues.
-- **VirtualBox**: I run a **VM**.
 
 ## Computer && specs
 
@@ -18,7 +17,7 @@ I have two computers that I use, one is my work computer (laptop: Dell XPS 15) &
 
 ### **Specs** (for my personal computer):
 
-- **OS**: Windows 10, but I have a **VM** running **Gnome** which I use daily (possibly switching to **Gnome** permanently soon).
+- **OS**: Dual-boot Linux (Ubuntu) && Windows 10
 - **Motherboard**: Asus PRIME B360-A Intel B360 LGA1151
 - **CPU**: Intel Core i5-9400F 2,9 GHz LGA1151
 - **GPU**: MSI GeForce RTX 2060 VENTUS 6G OC 6GB GDDR6
