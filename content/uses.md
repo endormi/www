@@ -3,13 +3,7 @@ title = "Uses"
 slug = "uses"
 +++
 
-Here are the software && hardware I use.
-
-## Software
-
-- **Discord**: I use **discord** to talk with other dev's etc.
-- **Git**: Git is the only version control I use. I have automated some git commands in my [automation repository](https://github.com/endormi/automation/blob/master/git-commands/commands.py) (clone, commit, branch, pull, merge && blame).
-- **Slack**: I mostly use **slack** to communicate with colleagues.
+Here are the hardware I use.
 
 ## Computer && specs
 
