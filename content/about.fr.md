@@ -10,7 +10,7 @@ Je suis passionné d'apprendre les nouvelles technologies différentes.
 ## Mes compétences :
 
 - Python, JavaScript, Ruby, Bash, C, Lua, Batch && AutoHotkey.
-- Django, Vue, Nuxt, Element UI, Bootstrap && JSF.
+- Django, Vue, Nuxt, Node.js, Element UI, Bootstrap && JSF.
 - Docker, AWS (IAM, VPC, EC2, S3, CloudWatch), IaC (Terraform), CI/CD (Travis-CI && GitHub Actions), Grafana, Prometheus && Loki.
 - MySQL && PostgreSQL.
 - Scrum && Kanban.
