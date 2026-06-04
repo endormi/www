@@ -10,7 +10,6 @@ pygmentscodefencesguesssyntax = true
 
 [params]
     author = "Erno Salo"
-    info = "Software Developer at Foredata Oy"
     description = "Personal website for Endormi"
     images = ["static/images/img.png"]
     keywords = "developer,personal,website,portfolio"
@@ -23,16 +22,6 @@ pygmentscodefencesguesssyntax = true
     rtl = false
     custom_css = ["/css/custom.css"]
 
-# [params.csp]
-#     childsrc = ["'self'"]
-#     fontsrc = ["'self'", "https://fonts.gstatic.com"]
-#     formaction = ["'self'"]
-#     framesrc = ["'self'"]
-#     imgsrc = ["'self'"]
-#     objectsrc = ["'none'"]
-#     stylesrc = ["'self'", "'unsafe-inline'"]
-#     scriptsrc = ["'self'", "'unsafe-inline'"]
-
 [[params.social]]
     name = "Github"
     icon = "fa fa-github fa-2x"
@@ -40,21 +29,9 @@ pygmentscodefencesguesssyntax = true
     url = "https://github.com/endormi/"
 
 [[params.social]]
-    name = "LinkedIn"
-    icon = "fa fa-linkedin fa-2x"
-    weight = 2
-    url = "https://linkedin.com/in/ernosalo/"
-
-[[params.social]]
-    name = "Dev.to"
-    icon = "fa fa-dev-to fa-2x"
-    weight = 3
-    url = "https://dev.to/endormi/"
-
-[[params.social]]
     name = "Source Code"
     icon = "fa fa-file-code-o fa-2x"
-    weight = 4
+    weight = 2
     url = "https://github.com/endormi/www"
 
 [languages]
@@ -88,7 +65,6 @@ pygmentscodefencesguesssyntax = true
 
         [languages.fr.params]
             author = "Erno Salo"
-            info = "Développeur logiciel à Foredata Oy"
             description = "Le site personnel de Endormi"
             keywords = "développeur,personnel,site,portefeuille"
 
