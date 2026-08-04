@@ -3,15 +3,15 @@ title = "About"
 slug = "about"
 +++
 
-I am a **Software Developer** based in Finland.
+I am a **DevOps Engineer** based in Finland.
 
 I'm passionate about learning all kinds of new technologies.
 
 ## My skills:
 
-- Python, JavaScript, Ruby, Bash, C, Lua, Batch && AutoHotkey.
-- Django, Vue, Nuxt, Node.js, Element UI, Bootstrap && JSF.
+- Python, JavaScript, Ruby, Bash, Lua && Batch.
+- Vue, Nuxt, Node.js, Django, Element UI && JSF.
 - Docker, AWS, IaC (Terraform), CI/CD (Travis-CI && GitHub Actions), Grafana, Prometheus && Loki.
 - MySQL && PostgreSQL.
 - Scrum && Kanban.
-- Git, GitHub, CodeCommit, IDE && Emacs.
+- Git, GitHub, CodeCommit && IDE.
